@@ -7,6 +7,7 @@ import PageObjects.registerPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import Utilities.Loggerload;
 
 public class Register_StepDefinition {
 	registerPage register = new registerPage();
@@ -15,16 +16,23 @@ public class Register_StepDefinition {
 	
 	@Given("The user opens Register Page")
 	public void the_user_opens_register_page() {
+		
+		Loggerload.info("The user opens Register Page");
+		
 		register.navigatetoRegisterPage();
 	}
 
 	@When("The user clicks {string} button with all fields empty")
 	public void the_user_clicks_button_with_all_fields_empty(String string) {
-	    register.clickOnRegisterButton();
+		Loggerload.info("The user do not enter any values");
+		register.clickOnRegisterButton();
 	}
 
 	@Then("It should display an error message {string} below Username textbox")
 	public void it_should_display_an_error_message_below_username_textbox(String expErrormsg) {
+		
+		Loggerload.info("Error message is displayed " + register.getEmptyfieldErrormsgUser()
+		+ " an error below Username textbox");
 		assertTrue(register.EmptyRequiredUser(), "Username Field is Empty - required attribute is validated");
 		assertEquals(register.getEmptyfieldErrormsgUser(), expErrormsg);
 	}
@@ -33,11 +41,17 @@ public class Register_StepDefinition {
 	
 	@When("The user clicks {string} button after entering username with other fields empty")
 	public void the_user_clicks_button_after_entering_username_with_other_fields_empty(String string, io.cucumber.datatable.DataTable dataTable) {
+		
+		Loggerload.info("The user enter valid username with other fields empty");
+		
 		register.entervalidUsername(dataTable);
 	}
 
 	@Then("It should display an error message {string} below Password textbox")
 	public void it_should_display_an_error_message_below_password_textbox(String expErrormsg) {
+		
+		Loggerload.info("Error message is displayed " + register.getEmptyfieldErrormsgCofmPswd()
+		+ " an error below Password textbox");
 		assertTrue(register.EmptyRequiredPswd(), "Username Field is Empty - required attribute is validated");
 		assertEquals(register.getEmptyfieldErrormsgPswd(), expErrormsg);
 	}
@@ -53,6 +67,9 @@ public class Register_StepDefinition {
 
 	@Then("It should display an error message {string} below Password Confirmation textbox")
 	public void it_should_display_an_error_message_below_password_confirmation_textbox(String expErrormsg) {
+		
+		Loggerload.info("Error message is displayed " + register.getEmptyfieldErrormsgCofmPswd()
+		+ " an error below Username textbox");
 		assertTrue(register.getEmptyRequiredCofmPswd(), "Username Field is Empty - required attribute is validated");
 		assertEquals(register.getEmptyfieldErrormsgCofmPswd(), expErrormsg);
 	}
@@ -70,6 +87,10 @@ public class Register_StepDefinition {
 
 	@Then("It should display an error message {string}")
 	public void it_should_display_an_error_message(String expErrormsg) {
+		
+		Loggerload.info("Expected Error message is as : " + expErrormsg);
+		Loggerload.info("Error message is displayed as : " + register.getErrormsg());
+
 		assertEquals(register.getErrormsg(), expErrormsg);
 	}
 	
@@ -136,8 +157,10 @@ public class Register_StepDefinition {
 
 	@Then("The user should be redirected to Homepage with the message {string}")
 	public void the_user_should_be_redirected_to_homepage_with_the_message(String string) {
+		Loggerload.info("User redirected to Homepage ");
 		String Title = register.getPageTitle();
-		assertEquals(Title, "NumpyNinja", "Title do not match");
+		Loggerload.info("Title of current page is : " + Title);
+		assertEquals(Title, "Registration", "Title do not match");
 	}
 
 	

@@ -79,6 +79,22 @@ package Utilities;
 			else
 				throw new RuntimeException("Excel file path not specified in the Configuration.properties file.");
 		}
+		public static String tryEditorURL() {
+			String tryeditorurl = prop.getProperty("tryeditorurl");
+			if (tryeditorurl != null)
+				return tryeditorurl;
+			else
+				throw new RuntimeException("tryeditorurl not specified in the Configuration.properties file.");
+		}
+		public static String geturl(String pagename) {
+			String url = prop.getProperty(pagename);
+			if (url != null)
+				return url;
+			else
+				throw new RuntimeException(pagename + " url not specified in the Configuration.properties file.");
+		}
+
+
 
 	}
 

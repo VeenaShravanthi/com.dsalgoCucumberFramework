@@ -8,6 +8,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import DriverFactory.BaseClass;
+import Utilities.Loggerload;
 import Utilities.configReader;
 
 import io.cucumber.java.After;
@@ -38,13 +39,13 @@ public class AppHooks {
 
 	}
 
-//	@Before
-//	public void scenario(Scenario scenario) {
-//		Loggerload.info("===============================================================================================");
-//		Loggerload.info(scenario.getSourceTagNames() +" : "+scenario.getName());
-//		Loggerload.info("-----------------------------------------------------------------------------------------------");
-//		
-//	}
+	@Before
+	public void scenario(Scenario scenario) {
+		Loggerload.info("===============================================================================================");
+		Loggerload.info(scenario.getSourceTagNames() +" : "+scenario.getName());
+		Loggerload.info("-----------------------------------------------------------------------------------------------");
+		
+	}
 	@AfterStep
 	public void afterstep(Scenario scenario) {
 		if (scenario.isFailed()) {
