@@ -65,7 +65,7 @@ public class homePage {
 	WebElement register;
 
 	// 2. Constructor of the page class:
-	public homePage(WebDriver driver) {
+	public homePage() {
 		PageFactory.initElements(driver, this);
 	}
 

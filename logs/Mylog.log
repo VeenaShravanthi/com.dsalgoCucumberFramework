@@ -1,0 +1,1444 @@
+[INFO ] 2023-06-18 15:23:16.910 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 15:23:17.349 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:23:17.906 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:23:17.998 [main] Loggerload - The user is on the home page after logged in
+[INFO ] 2023-06-18 15:23:17.999 [main] Loggerload - The user select Array item from the drop down menu
+[INFO ] 2023-06-18 15:23:18.237 [main] Loggerload - User redirected to Array Page 
+[INFO ] 2023-06-18 15:23:18.248 [main] Loggerload - Title of current page is : Array
+[INFO ] 2023-06-18 15:23:18.313 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 15:23:18.405 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:23:18.877 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:23:19.001 [main] Loggerload - The user is on the Array page after logged in
+[INFO ] 2023-06-18 15:23:19.432 [main] Loggerload - User redirected to Arrays in Python Page 
+[INFO ] 2023-06-18 15:23:19.442 [main] Loggerload - Title of current page is : Arrays in Python
+[INFO ] 2023-06-18 15:23:19.461 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 15:23:19.555 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:23:20.037 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:23:20.148 [main] Loggerload - The user is on the Arrays in Python page after logged in
+[INFO ] 2023-06-18 15:23:20.718 [main] Loggerload - User redirected to a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 15:23:20.727 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 15:23:20.740 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 15:23:20.856 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:23:21.362 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:23:21.363 [main] Loggerload - The user is in a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 15:23:21.601 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 15:23:21.602 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ] 2023-06-18 15:23:49.324 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 15:23:49.782 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:23:50.350 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:23:50.479 [main] Loggerload - The user is on the home page after logged in
+[INFO ] 2023-06-18 15:23:50.480 [main] Loggerload - The user select Array item from the drop down menu
+[INFO ] 2023-06-18 15:23:50.720 [main] Loggerload - User redirected to Array Page 
+[INFO ] 2023-06-18 15:23:50.732 [main] Loggerload - Title of current page is : Array
+[INFO ] 2023-06-18 15:23:50.806 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 15:23:50.935 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:23:51.406 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:23:51.518 [main] Loggerload - The user is on the Array page after logged in
+[INFO ] 2023-06-18 15:23:51.788 [main] Loggerload - User redirected to Arrays in Python Page 
+[INFO ] 2023-06-18 15:23:51.792 [main] Loggerload - Title of current page is : Arrays in Python
+[INFO ] 2023-06-18 15:23:51.814 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 15:23:51.917 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:23:52.403 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:23:52.531 [main] Loggerload - The user is on the Arrays in Python page after logged in
+[INFO ] 2023-06-18 15:23:53.107 [main] Loggerload - User redirected to a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 15:23:53.117 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 15:23:53.134 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 15:23:53.229 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:23:53.695 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:23:53.696 [main] Loggerload - The user is in a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 15:23:53.881 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 15:23:53.882 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ] 2023-06-18 15:23:54.838 [main] Loggerload - Actual result  : hello
+[INFO ] 2023-06-18 15:23:54.859 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 15:23:54.980 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:23:55.444 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:23:55.445 [main] Loggerload - The user is in a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 15:23:55.631 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 15:23:55.632 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ] 2023-06-18 15:23:55.937 [main] Loggerload - Actual Error message is  : NameError: name 'hello' is not defined on line 1
+[INFO ] 2023-06-18 15:23:55.952 [main] Loggerload - User is on DSAlgo portal page
+[INFO ] 2023-06-18 15:23:56.158 [main] Loggerload - User clicks on "Getstarted link" on Main Page
+[INFO ] 2023-06-18 15:23:56.361 [main] Loggerload - Title of current page is ***** NumpyNinja ****
+[INFO ] 2023-06-18 15:23:56.376 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:24:07.052 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:24:17.744 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:24:28.509 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:24:39.309 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:24:50.160 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:25:01.028 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:25:11.917 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:25:12.032 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 15:25:22.726 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:25:22.832 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 15:25:33.510 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:25:33.634 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 15:25:44.322 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:25:44.431 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 15:25:55.138 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:25:55.254 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 15:26:05.988 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:26:06.109 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 15:26:16.878 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:26:16.993 [main] Loggerload - User clicks on Sign in 
+[INFO ] 2023-06-18 15:26:25.940 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:26:25.968 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:26:26.013 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:26:26.033 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:26:26.049 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:26:26.063 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:26:26.089 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:26:26.108 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:26:26.123 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:26:36.386 [main] Loggerload - User is on DSAlgo portal page
+[INFO ] 2023-06-18 15:26:36.407 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:26:36.431 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:26:36.451 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:26:36.466 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:26:36.485 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:26:36.510 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:26:36.525 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:26:36.541 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:26:36.557 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:26:36.569 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:26:36.580 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:28:18.911 [main] Loggerload - User is on DSAlgo portal page
+[INFO ] 2023-06-18 15:28:19.269 [main] Loggerload - User clicks on "Getstarted link" on Main Page
+[INFO ] 2023-06-18 15:28:19.654 [main] Loggerload - Title of current page is ***** NumpyNinja ****
+[INFO ] 2023-06-18 15:28:19.727 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:20.103 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 15:28:20.125 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:20.479 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 15:28:20.507 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:20.825 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 15:28:20.834 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:21.155 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 15:28:21.172 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:21.521 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 15:28:21.541 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:21.873 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 15:28:21.884 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:22.215 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 15:28:22.225 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:22.315 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 15:28:22.558 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 15:28:22.570 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:22.664 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 15:28:22.882 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 15:28:22.890 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:22.980 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 15:28:23.198 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 15:28:23.207 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:23.287 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 15:28:23.515 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 15:28:23.523 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:23.608 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 15:28:23.824 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 15:28:23.836 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:23.939 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 15:28:24.178 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 15:28:24.187 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:24.270 [main] Loggerload - User clicks on Sign in 
+[INFO ] 2023-06-18 15:28:24.446 [main] Loggerload - User redirected to login page 
+[INFO ] 2023-06-18 15:28:24.451 [main] Loggerload - Title of current page is : Login
+[INFO ] 2023-06-18 15:28:24.463 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 15:28:24.559 [main] Loggerload - User clicks on Register 
+[INFO ] 2023-06-18 15:28:24.698 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-18 15:28:24.709 [main] Loggerload - User is on DSAlgo portal page
+[INFO ] 2023-06-18 15:28:24.834 [main] Loggerload - User clicks on "Getstarted link" on Main Page
+[INFO ] 2023-06-18 15:28:25.001 [main] Loggerload - Title of current page is ***** NumpyNinja ****
+[INFO ] 2023-06-18 15:28:25.021 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:28:25.119 [main] Loggerload - The user do not enter any values
+[INFO ] 2023-06-18 15:28:25.198 [main] Loggerload - Error message is displayed Please fill out this field. an error below Username textbox
+[INFO ] 2023-06-18 15:28:25.255 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:28:25.351 [main] Loggerload - The user enter valid username with other fields empty
+[INFO ] 2023-06-18 15:28:25.377 [main] Loggerload - Error message is displayed Please fill out this field. an error below Password textbox
+[INFO ] 2023-06-18 15:28:25.428 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:28:25.630 [main] Loggerload - Error message is displayed Please fill out this field. an error below Username textbox
+[INFO ] 2023-06-18 15:28:25.674 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:28:25.898 [main] Loggerload - Expected Error message is as : password_mismatch:The two password fields didn’t match.
+[INFO ] 2023-06-18 15:28:35.931 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 15:28:46.241 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:28:46.472 [main] Loggerload - Expected Error message is as : password_mismatch:The two password fields didn’t match.
+[INFO ] 2023-06-18 15:28:56.501 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 15:29:06.780 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:29:06.981 [main] Loggerload - Expected Error message is as : Password should contain at least 8 characters
+[INFO ] 2023-06-18 15:29:17.008 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 15:29:27.431 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:29:27.647 [main] Loggerload - Expected Error message is as : Password can’t be entirely numeric.
+[INFO ] 2023-06-18 15:29:37.676 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 15:29:48.086 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:29:48.311 [main] Loggerload - Expected Error message is as : password can’t be too similar to your other personal information.
+[INFO ] 2023-06-18 15:29:58.373 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 15:30:08.775 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:30:09.011 [main] Loggerload - Expected Error message is as : Password can’t be commonly used password
+[INFO ] 2023-06-18 15:30:19.038 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 15:30:29.484 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:30:29.715 [main] Loggerload - User redirected to Homepage 
+[INFO ] 2023-06-18 15:30:29.720 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-18 15:30:30.195 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:30:30.420 [main] Loggerload - Expected Error message is as : Username already exists
+[INFO ] 2023-06-18 15:30:40.488 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 15:30:50.818 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:30:50.938 [main] Loggerload - User clicks on Register 
+[INFO ] 2023-06-18 15:30:51.061 [main] Loggerload - User redirected to Registraion page 
+[INFO ] 2023-06-18 15:30:51.076 [main] Loggerload - Title of the Page : " Registration" 
+[INFO ] 2023-06-18 15:30:51.083 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:30:51.204 [main] Loggerload - User Enter username as " user " and Password as " " 
+[INFO ] 2023-06-18 15:30:51.362 [main] Loggerload - Empty field value is validated
+[INFO ] 2023-06-18 15:30:51.362 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:30:51.413 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:30:51.509 [main] Loggerload - User Enter username as "  " and Password as " passowrd" 
+[INFO ] 2023-06-18 15:30:51.637 [main] Loggerload - Empty field value is validated
+[INFO ] 2023-06-18 15:30:51.638 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:30:51.690 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:30:51.793 [main] Loggerload - User Enter username as "  " and Password as " " 
+[INFO ] 2023-06-18 15:30:51.908 [main] Loggerload - Empty field value is validated
+[INFO ] 2023-06-18 15:30:51.909 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:30:51.949 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:30:52.491 [main] Loggerload - User Enter username as " username "and Password as " user" 
+[INFO ] 2023-06-18 15:30:52.609 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:30:52.609 [main] Loggerload - Expected Message - Excel Sheet :  Invalid Username and Password
+[INFO ] 2023-06-18 15:30:52.833 [main] Loggerload - Actual Message :  Invalid Username and Password
+[INFO ] 2023-06-18 15:30:52.847 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:30:52.985 [main] Loggerload - User Enter username as " user "and Password as " username" 
+[INFO ] 2023-06-18 15:30:53.108 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:30:53.108 [main] Loggerload - Expected Message - Excel Sheet :  Invalid Username and Password
+[INFO ] 2023-06-18 15:30:53.316 [main] Loggerload - Actual Message :  Invalid Username and Password
+[INFO ] 2023-06-18 15:30:53.324 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:30:53.432 [main] Loggerload - User Enter username as " username "and Password as " dsalgo123" 
+[INFO ] 2023-06-18 15:30:53.554 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:30:53.554 [main] Loggerload - Expected Message - Excel Sheet :  You are logged in
+[INFO ] 2023-06-18 15:30:53.875 [main] Loggerload - Actual Message :  You are logged in
+[INFO ] 2023-06-18 15:30:53.881 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 15:30:54.074 [main] Loggerload - User Enter username as " Numpy "and Password as " NumpyNinja" 
+[INFO ] 2023-06-18 15:30:54.187 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:30:54.187 [main] Loggerload - Expected Message - Excel Sheet :  Invalid Username and Password
+[INFO ] 2023-06-18 15:30:54.391 [main] Loggerload - Actual Message :  Invalid Username and Password
+[INFO ] 2023-06-18 15:30:55.022 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:30:55.030 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 15:30:55.183 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:30:55.636 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:30:55.729 [main] Loggerload - The user is on the home page after logged in
+[INFO ] 2023-06-18 15:30:55.730 [main] Loggerload - The user select Array item from the drop down menu
+[INFO ] 2023-06-18 15:30:55.960 [main] Loggerload - User redirected to Array Page 
+[INFO ] 2023-06-18 15:30:55.972 [main] Loggerload - Title of current page is : Array
+[INFO ] 2023-06-18 15:30:55.980 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 15:30:56.142 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:30:56.573 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:30:56.683 [main] Loggerload - The user is on the Array page after logged in
+[INFO ] 2023-06-18 15:30:57.041 [main] Loggerload - User redirected to Arrays in Python Page 
+[INFO ] 2023-06-18 15:30:57.045 [main] Loggerload - Title of current page is : Arrays in Python
+[INFO ] 2023-06-18 15:30:57.054 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 15:30:57.153 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:30:57.601 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:30:57.768 [main] Loggerload - The user is on the Arrays in Python page after logged in
+[INFO ] 2023-06-18 15:30:58.300 [main] Loggerload - User redirected to a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 15:30:58.309 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 15:30:58.318 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 15:30:58.421 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:30:58.872 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:30:58.872 [main] Loggerload - The user is in a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 15:30:59.053 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 15:30:59.054 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ] 2023-06-18 15:30:59.421 [main] Loggerload - Actual result  : hello
+[INFO ] 2023-06-18 15:30:59.430 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 15:30:59.523 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 15:30:59.941 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 15:30:59.942 [main] Loggerload - The user is in a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 15:31:00.118 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 15:31:00.119 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ] 2023-06-18 15:31:00.344 [main] Loggerload - Actual Error message is  : NameError: name 'hello' is not defined on line 1
+[INFO ] 2023-06-18 15:54:16.442 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 15:54:16.445 [main] Loggerload - [@register, @TS_register_01] : User launch home page of an dsalgo project
+[INFO ] 2023-06-18 15:54:16.445 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 15:54:16.459 [main] Loggerload - User is on DSAlgo portal page
+[INFO ] 2023-06-18 15:54:16.755 [main] Loggerload - User clicks on "Getstarted link" on Main Page
+[INFO ] 2023-06-18 15:54:17.133 [main] Loggerload - Title of current page is ***** NumpyNinja ****
+[INFO ] 2023-06-18 15:54:17.148 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 15:54:17.148 [main] Loggerload - [@register, @TS_register_02] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-06-18 15:54:17.148 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 15:54:17.149 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:54:17.279 [main] Loggerload - The user do not enter any values
+[INFO ] 2023-06-18 15:54:17.354 [main] Loggerload - Error message is displayed Please fill out this field. an error below Username textbox
+[INFO ] 2023-06-18 15:54:17.409 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 15:54:17.410 [main] Loggerload - [@register, @TS_register_03] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-06-18 15:54:17.410 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 15:54:17.410 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:54:17.489 [main] Loggerload - The user enter valid username with other fields empty
+[INFO ] 2023-06-18 15:54:17.520 [main] Loggerload - Error message is displayed Please fill out this field. an error below Password textbox
+[INFO ] 2023-06-18 15:54:17.573 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 15:54:17.573 [main] Loggerload - [@register, @TS_register_04] : The user is presented with error message for empty fields below confirm Password textbox
+[INFO ] 2023-06-18 15:54:17.573 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 15:54:17.574 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:54:17.750 [main] Loggerload - Error message is displayed Please fill out this field. an error below Username textbox
+[INFO ] 2023-06-18 15:54:17.798 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 15:54:17.798 [main] Loggerload - [@register, @TS_register_05] : The user is presented with error message for invalid username
+[INFO ] 2023-06-18 15:54:17.799 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 15:54:17.799 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:54:17.995 [main] Loggerload - Expected Error message is as : password_mismatch:The two password fields didn’t match.
+[INFO ] 2023-06-18 15:54:28.010 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 15:54:38.574 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 15:54:38.574 [main] Loggerload - [@register, @TS_register_06] : The user is presented with error message for password mismatch
+[INFO ] 2023-06-18 15:54:38.574 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 15:54:38.574 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:54:38.786 [main] Loggerload - Expected Error message is as : password_mismatch:The two password fields didn’t match.
+[INFO ] 2023-06-18 15:54:48.853 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 15:54:59.257 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 15:54:59.257 [main] Loggerload - [@register, @TS_register_07] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-06-18 15:54:59.257 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 15:54:59.257 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:54:59.463 [main] Loggerload - Expected Error message is as : Password should contain at least 8 characters
+[INFO ] 2023-06-18 15:55:09.517 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 15:55:19.931 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 15:55:19.931 [main] Loggerload - [@register, @TS_register_08] : The user is presented with error message for password with only numbers
+[INFO ] 2023-06-18 15:55:19.931 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 15:55:19.932 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:55:20.163 [main] Loggerload - Expected Error message is as : Password can’t be entirely numeric.
+[INFO ] 2023-06-18 15:55:30.194 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 15:55:40.517 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 15:55:40.518 [main] Loggerload - [@register, @TS_register_09] : The user is presented with error message for password too similar to your other personal information
+[INFO ] 2023-06-18 15:55:40.518 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 15:55:40.518 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:55:40.724 [main] Loggerload - Expected Error message is as : password can’t be too similar to your other personal information.
+[INFO ] 2023-06-18 15:55:50.766 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 15:56:01.217 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 15:56:01.217 [main] Loggerload - [@register, @TS_register_10] : The user is presented with error message for commonly used password
+[INFO ] 2023-06-18 15:56:01.217 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 15:56:01.218 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:56:01.412 [main] Loggerload - Expected Error message is as : Password can’t be commonly used password
+[INFO ] 2023-06-18 15:56:11.454 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 15:56:21.775 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 15:56:21.775 [main] Loggerload - [@register, @TS_register_11] : The user redirected to Homepage with valid details
+[INFO ] 2023-06-18 15:56:21.775 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 15:56:21.776 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:56:21.989 [main] Loggerload - User redirected to Homepage 
+[INFO ] 2023-06-18 15:56:21.996 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-18 15:56:22.002 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 15:56:22.002 [main] Loggerload - [@register, @TS_register_12] : The user is presented with error message for existing username
+[INFO ] 2023-06-18 15:56:22.002 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 15:56:22.002 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 15:56:22.196 [main] Loggerload - Expected Error message is as : Username already exists
+[INFO ] 2023-06-18 15:56:32.231 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 16:04:00.617 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:00.619 [main] Loggerload - [@homePage, @home_pageTS-01] : User launch home page of an dsalgo project
+[INFO ] 2023-06-18 16:04:00.619 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:00.630 [main] Loggerload - User is on DSAlgo portal page
+[INFO ] 2023-06-18 16:04:01.005 [main] Loggerload - User clicks on "Getstarted link" on Main Page
+[INFO ] 2023-06-18 16:04:01.367 [main] Loggerload - Title of current page is ***** NumpyNinja ****
+[INFO ] 2023-06-18 16:04:01.429 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:01.429 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Datastructures" on home page without sign in
+[INFO ] 2023-06-18 16:04:01.429 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:01.430 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:01.758 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 16:04:01.775 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:01.775 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Arrays" on home page without sign in
+[INFO ] 2023-06-18 16:04:01.775 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:01.777 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:02.077 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 16:04:02.088 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:02.089 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Linkedlist" on home page without sign in
+[INFO ] 2023-06-18 16:04:02.089 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:02.090 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:02.401 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 16:04:02.416 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:02.416 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Stack" on home page without sign in
+[INFO ] 2023-06-18 16:04:02.416 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:02.417 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:02.744 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 16:04:02.756 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:02.756 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Queue" on home page without sign in
+[INFO ] 2023-06-18 16:04:02.757 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:02.757 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:03.092 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 16:04:03.107 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:03.107 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Tree" on home page without sign in
+[INFO ] 2023-06-18 16:04:03.107 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:03.108 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:03.432 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 16:04:03.446 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:03.446 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Graph" on home page without sign in
+[INFO ] 2023-06-18 16:04:03.446 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:03.446 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:03.762 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 16:04:03.775 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:03.775 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Arrays" without sign in
+[INFO ] 2023-06-18 16:04:03.775 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:03.776 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:03.862 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 16:04:04.086 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 16:04:04.100 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:04.101 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Linkedlist" without sign in
+[INFO ] 2023-06-18 16:04:04.101 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:04.101 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:04.192 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 16:04:04.393 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 16:04:04.403 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:04.404 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Stack" without sign in
+[INFO ] 2023-06-18 16:04:04.404 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:04.405 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:04.487 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 16:04:04.710 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 16:04:04.720 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:04.720 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Queue" without sign in
+[INFO ] 2023-06-18 16:04:04.720 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:04.721 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:04.816 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 16:04:05.023 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 16:04:05.030 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:05.030 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Tree" without sign in
+[INFO ] 2023-06-18 16:04:05.030 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:05.030 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:05.111 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 16:04:05.311 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 16:04:05.317 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:05.317 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Graph" without sign in
+[INFO ] 2023-06-18 16:04:05.317 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:05.318 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:05.391 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 16:04:05.599 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 16:04:05.609 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:05.609 [main] Loggerload - [@homePage, @home_pageTS-04] : User is on Home page and click on sign in
+[INFO ] 2023-06-18 16:04:05.609 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:05.610 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:05.700 [main] Loggerload - User clicks on Sign in 
+[INFO ] 2023-06-18 16:04:05.843 [main] Loggerload - User redirected to login page 
+[INFO ] 2023-06-18 16:04:05.848 [main] Loggerload - Title of current page is : Login
+[INFO ] 2023-06-18 16:04:05.859 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:05.859 [main] Loggerload - [@homePage, @home_pageTS-05] : User is on Home page and click on Register
+[INFO ] 2023-06-18 16:04:05.859 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:05.859 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 16:04:05.962 [main] Loggerload - User clicks on Register 
+[INFO ] 2023-06-18 16:04:06.110 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-18 16:04:06.120 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:06.120 [main] Loggerload - [@register, @TS_register_01] : User launch home page of an dsalgo project
+[INFO ] 2023-06-18 16:04:06.120 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:06.121 [main] Loggerload - User is on DSAlgo portal page
+[INFO ] 2023-06-18 16:04:06.229 [main] Loggerload - User clicks on "Getstarted link" on Main Page
+[INFO ] 2023-06-18 16:04:06.355 [main] Loggerload - Title of current page is ***** NumpyNinja ****
+[INFO ] 2023-06-18 16:04:06.367 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:06.367 [main] Loggerload - [@register, @TS_register_02] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-06-18 16:04:06.367 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:06.368 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 16:04:06.468 [main] Loggerload - The user do not enter any values
+[INFO ] 2023-06-18 16:04:06.468 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 16:04:06.542 [main] Loggerload - Error message is displayed Please fill out this field. an error below Username textbox
+[INFO ] 2023-06-18 16:04:06.597 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:06.597 [main] Loggerload - [@register, @TS_register_03] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-06-18 16:04:06.598 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:06.598 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 16:04:06.691 [main] Loggerload - The user enter valid username with other fields empty
+[INFO ] 2023-06-18 16:04:06.695 [main] Loggerload - The user enter username as : dsalgo_123
+[INFO ] 2023-06-18 16:04:06.718 [main] Loggerload - Error message is displayed Please fill out this field. an error below Password textbox
+[INFO ] 2023-06-18 16:04:06.762 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:06.763 [main] Loggerload - [@register, @TS_register_04] : The user is presented with error message for empty fields below confirm Password textbox
+[INFO ] 2023-06-18 16:04:06.763 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:06.763 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 16:04:06.881 [main] Loggerload - The user enter username as : username
+[INFO ] 2023-06-18 16:04:06.882 [main] Loggerload - The user enter password as : dsalgo123
+[INFO ] 2023-06-18 16:04:06.930 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 16:04:06.984 [main] Loggerload - Error message is displayed Please fill out this field. an error below Username textbox
+[INFO ] 2023-06-18 16:04:07.035 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:07.036 [main] Loggerload - [@register, @TS_register_05] : The user is presented with error message for invalid username
+[INFO ] 2023-06-18 16:04:07.036 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:07.036 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 16:04:07.129 [main] Loggerload - The user enter username as : &**&**&
+[INFO ] 2023-06-18 16:04:07.129 [main] Loggerload - The user enter password as : testpassword
+[INFO ] 2023-06-18 16:04:07.173 [main] Loggerload - The user enter confirm password as : testpassword
+[INFO ] 2023-06-18 16:04:07.211 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 16:04:07.241 [main] Loggerload - Expected Error message is as : password_mismatch:The two password fields didn?t match.
+[INFO ] 2023-06-18 16:04:17.318 [main] Loggerload - No such element
+[INFO ] 2023-06-18 16:04:17.319 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 16:04:27.371 [main] Loggerload - No such element
+[INFO ] 2023-06-18 16:04:27.658 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:27.658 [main] Loggerload - [@register, @TS_register_06] : The user is presented with error message for password mismatch
+[INFO ] 2023-06-18 16:04:27.658 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:27.659 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 16:04:27.746 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 16:04:27.746 [main] Loggerload - The user enter password as : testpassword
+[INFO ] 2023-06-18 16:04:27.793 [main] Loggerload - The user enter confirm password as : testpassword1
+[INFO ] 2023-06-18 16:04:27.833 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 16:04:27.864 [main] Loggerload - Expected Error message is as : password_mismatch:The two password fields didn?t match.
+[INFO ] 2023-06-18 16:04:37.901 [main] Loggerload - No such element
+[INFO ] 2023-06-18 16:04:37.901 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 16:04:47.925 [main] Loggerload - No such element
+[INFO ] 2023-06-18 16:04:48.181 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:04:48.181 [main] Loggerload - [@register, @TS_register_07] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-06-18 16:04:48.181 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:04:48.181 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 16:04:48.275 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 16:04:48.275 [main] Loggerload - The user enter password as : a1b2c3d
+[INFO ] 2023-06-18 16:04:48.322 [main] Loggerload - The user enter confirm password as : a1b2c3d
+[INFO ] 2023-06-18 16:04:48.360 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 16:04:48.392 [main] Loggerload - Expected Error message is as : Password should contain at least 8 characters
+[INFO ] 2023-06-18 16:04:58.428 [main] Loggerload - No such element
+[INFO ] 2023-06-18 16:04:58.428 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 16:05:08.485 [main] Loggerload - No such element
+[INFO ] 2023-06-18 16:05:08.728 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:05:08.728 [main] Loggerload - [@register, @TS_register_08] : The user is presented with error message for password with only numbers
+[INFO ] 2023-06-18 16:05:08.728 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:05:08.728 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 16:05:08.819 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 16:05:08.819 [main] Loggerload - The user enter password as : 12345678
+[INFO ] 2023-06-18 16:05:08.874 [main] Loggerload - The user enter confirm password as : 12345678
+[INFO ] 2023-06-18 16:05:08.912 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 16:05:08.948 [main] Loggerload - Expected Error message is as : Password cannot be entirely numeric.
+[INFO ] 2023-06-18 16:05:18.985 [main] Loggerload - No such element
+[INFO ] 2023-06-18 16:05:18.985 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 16:05:29.066 [main] Loggerload - No such element
+[INFO ] 2023-06-18 16:05:29.310 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:05:29.310 [main] Loggerload - [@register, @TS_register_09] : The user is presented with error message for password too similar to your other personal information
+[INFO ] 2023-06-18 16:05:29.310 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:05:29.310 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 16:05:29.388 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 16:05:29.389 [main] Loggerload - The user enter password as : testsdet84
+[INFO ] 2023-06-18 16:05:29.436 [main] Loggerload - The user enter confirm password as : testsdet84
+[INFO ] 2023-06-18 16:05:29.473 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 16:05:29.507 [main] Loggerload - Expected Error message is as : password cannot be too similar to your other personal information.
+[INFO ] 2023-06-18 16:05:39.565 [main] Loggerload - No such element
+[INFO ] 2023-06-18 16:05:39.565 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 16:05:49.587 [main] Loggerload - No such element
+[INFO ] 2023-06-18 16:05:49.821 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:05:49.822 [main] Loggerload - [@register, @TS_register_10] : The user is presented with error message for commonly used password
+[INFO ] 2023-06-18 16:05:49.822 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:05:49.822 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 16:05:49.909 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 16:05:49.909 [main] Loggerload - The user enter password as : Welcome1
+[INFO ] 2023-06-18 16:05:49.954 [main] Loggerload - The user enter confirm password as : Welcome1
+[INFO ] 2023-06-18 16:05:49.992 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 16:05:50.021 [main] Loggerload - Expected Error message is as : Password cannot be commonly used password
+[INFO ] 2023-06-18 16:06:00.043 [main] Loggerload - No such element
+[INFO ] 2023-06-18 16:06:00.043 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 16:06:10.103 [main] Loggerload - No such element
+[INFO ] 2023-06-18 16:06:10.355 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:10.355 [main] Loggerload - [@register, @TS_register_11] : The user redirected to Homepage with valid details
+[INFO ] 2023-06-18 16:06:10.355 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:10.356 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 16:06:10.442 [main] Loggerload - The user enter username as : username
+[INFO ] 2023-06-18 16:06:10.442 [main] Loggerload - The user enter password as : dsalgo123
+[INFO ] 2023-06-18 16:06:10.495 [main] Loggerload - The user enter confirm password as : dsalgo123
+[INFO ] 2023-06-18 16:06:10.536 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 16:06:10.574 [main] Loggerload - User redirected to Homepage 
+[INFO ] 2023-06-18 16:06:10.578 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-18 16:06:10.590 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:10.590 [main] Loggerload - [@register, @TS_register_12] : The user is presented with error message for existing username
+[INFO ] 2023-06-18 16:06:10.590 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:10.591 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 16:06:10.675 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 16:06:10.675 [main] Loggerload - The user enter password as : RT56YUabc
+[INFO ] 2023-06-18 16:06:10.719 [main] Loggerload - The user enter confirm password as : RT56YUabc
+[INFO ] 2023-06-18 16:06:10.754 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 16:06:10.785 [main] Loggerload - Expected Error message is as : Username already exists
+[INFO ] 2023-06-18 16:06:20.832 [main] Loggerload - No such element
+[INFO ] 2023-06-18 16:06:20.832 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 16:06:30.900 [main] Loggerload - No such element
+[INFO ] 2023-06-18 16:06:31.156 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:31.156 [main] Loggerload - [@signin, @TS_signin_01] : Verifying Register link
+[INFO ] 2023-06-18 16:06:31.157 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:31.161 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 16:06:31.253 [main] Loggerload - User clicks on Register 
+[INFO ] 2023-06-18 16:06:31.386 [main] Loggerload - User redirected to Registraion page 
+[INFO ] 2023-06-18 16:06:31.390 [main] Loggerload - Title of the Page : " Registration" 
+[INFO ] 2023-06-18 16:06:31.403 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:31.403 [main] Loggerload - [@signin, @TS_signin_02] : User on login page and login with invalid inputs "user" and ""
+[INFO ] 2023-06-18 16:06:31.403 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:31.403 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 16:06:31.491 [main] Loggerload - User Enter username as " user " and Password as " " 
+[INFO ] 2023-06-18 16:06:31.635 [main] Loggerload - Empty field value is validated
+[INFO ] 2023-06-18 16:06:31.636 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 16:06:31.682 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:31.682 [main] Loggerload - [@signin, @TS_signin_02] : User on login page and login with invalid inputs "" and "passowrd"
+[INFO ] 2023-06-18 16:06:31.682 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:31.682 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 16:06:31.764 [main] Loggerload - User Enter username as "  " and Password as " passowrd" 
+[INFO ] 2023-06-18 16:06:31.887 [main] Loggerload - Empty field value is validated
+[INFO ] 2023-06-18 16:06:31.887 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 16:06:31.928 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:31.928 [main] Loggerload - [@signin, @TS_signin_02] : User on login page and login with invalid inputs "" and ""
+[INFO ] 2023-06-18 16:06:31.928 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:31.928 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 16:06:32.014 [main] Loggerload - User Enter username as "  " and Password as " " 
+[INFO ] 2023-06-18 16:06:32.148 [main] Loggerload - Empty field value is validated
+[INFO ] 2023-06-18 16:06:32.148 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 16:06:32.196 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:32.196 [main] Loggerload - [@signin, @TS_signin_03] : User on login page and login with invalid and valid inputs from Excel "Sheet1" and 0
+[INFO ] 2023-06-18 16:06:32.196 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:32.197 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 16:06:33.082 [main] Loggerload - User Enter username as " username "and Password as " user" 
+[INFO ] 2023-06-18 16:06:33.221 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 16:06:33.222 [main] Loggerload - Expected Message - Excel Sheet :  Invalid Username and Password
+[INFO ] 2023-06-18 16:06:33.433 [main] Loggerload - Actual Message :  Invalid Username and Password
+[INFO ] 2023-06-18 16:06:33.444 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:33.444 [main] Loggerload - [@signin, @TS_signin_03] : User on login page and login with invalid and valid inputs from Excel "Sheet1" and 1
+[INFO ] 2023-06-18 16:06:33.444 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:33.444 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 16:06:33.566 [main] Loggerload - User Enter username as " user "and Password as " username" 
+[INFO ] 2023-06-18 16:06:33.698 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 16:06:33.699 [main] Loggerload - Expected Message - Excel Sheet :  Invalid Username and Password
+[INFO ] 2023-06-18 16:06:33.916 [main] Loggerload - Actual Message :  Invalid Username and Password
+[INFO ] 2023-06-18 16:06:33.924 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:33.925 [main] Loggerload - [@signin, @TS_signin_03] : User on login page and login with invalid and valid inputs from Excel "Sheet1" and 2
+[INFO ] 2023-06-18 16:06:33.925 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:33.925 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 16:06:34.037 [main] Loggerload - User Enter username as " username "and Password as " dsalgo123" 
+[INFO ] 2023-06-18 16:06:34.164 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 16:06:34.164 [main] Loggerload - Expected Message - Excel Sheet :  You are logged in
+[INFO ] 2023-06-18 16:06:34.478 [main] Loggerload - Actual Message :  You are logged in
+[INFO ] 2023-06-18 16:06:34.492 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:34.492 [main] Loggerload - [@signin, @TS_signin_03] : User on login page and login with invalid and valid inputs from Excel "Sheet1" and 3
+[INFO ] 2023-06-18 16:06:34.492 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:34.493 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 16:06:34.739 [main] Loggerload - User Enter username as " Numpy "and Password as " NumpyNinja" 
+[INFO ] 2023-06-18 16:06:34.863 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 16:06:34.863 [main] Loggerload - Expected Message - Excel Sheet :  Invalid Username and Password
+[INFO ] 2023-06-18 16:06:35.056 [main] Loggerload - Actual Message :  Invalid Username and Password
+[INFO ] 2023-06-18 16:06:35.064 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:35.064 [main] Loggerload - [@signin, @TS_signin_04] : Verifying signout link
+[INFO ] 2023-06-18 16:06:35.064 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:35.656 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 16:06:35.666 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:35.666 [main] Loggerload - [@array, @TS_array_02] : The user is able to navigate to "ARRAY" Data Structure Page
+[INFO ] 2023-06-18 16:06:35.666 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:35.667 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 16:06:35.752 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 16:06:36.288 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 16:06:36.367 [main] Loggerload - The user is on the home page after logged in
+[INFO ] 2023-06-18 16:06:36.368 [main] Loggerload - The user select Array item from the drop down menu
+[INFO ] 2023-06-18 16:06:36.542 [main] Loggerload - User redirected to Array Page 
+[INFO ] 2023-06-18 16:06:36.545 [main] Loggerload - Title of current page is : Array
+[INFO ] 2023-06-18 16:06:36.558 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:36.558 [main] Loggerload - [@array, @TS_array_03] : The user is able to navigate to Arrays in Python page
+[INFO ] 2023-06-18 16:06:36.558 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:36.559 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 16:06:36.654 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 16:06:37.110 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 16:06:37.213 [main] Loggerload - The user is on the Array page after logged in
+[INFO ] 2023-06-18 16:06:37.520 [main] Loggerload - User redirected to Arrays in Python Page 
+[INFO ] 2023-06-18 16:06:37.531 [main] Loggerload - Title of current page is : Arrays in Python
+[INFO ] 2023-06-18 16:06:37.549 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:37.549 [main] Loggerload - [@array, @TS_array_04] : The user is able to navigate to a page having an tryEditor from Arrays in Python page
+[INFO ] 2023-06-18 16:06:37.549 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:37.550 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 16:06:37.644 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 16:06:38.116 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 16:06:38.294 [main] Loggerload - The user is on the Arrays in Python page after logged in
+[INFO ] 2023-06-18 16:06:38.850 [main] Loggerload - User redirected to a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 16:06:38.853 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 16:06:38.861 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:38.861 [main] Loggerload - [@array, @TS_array_05] : The user is able run code in tryEditor for Arrays in Python page
+[INFO ] 2023-06-18 16:06:38.861 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:38.861 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 16:06:38.964 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 16:06:39.404 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 16:06:39.404 [main] Loggerload - The user is in a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 16:06:39.583 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 16:06:39.584 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ] 2023-06-18 16:06:39.975 [main] Loggerload - Actual result  : hello
+[INFO ] 2023-06-18 16:06:39.987 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 16:06:39.987 [main] Loggerload - [@array, @TS_array_06] : The user is presented with error message for code with invalid syntax in tryEditor for Arrays in Python page
+[INFO ] 2023-06-18 16:06:39.987 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 16:06:39.987 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 16:06:40.082 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 16:06:40.524 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 16:06:40.525 [main] Loggerload - The user is in a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 16:06:40.694 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 16:06:40.694 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ] 2023-06-18 16:06:40.957 [main] Loggerload - Actual Error message is  : NameError: name 'hello' is not defined on line 1
+[INFO ] 2023-06-18 22:43:21.368 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:21.372 [main] Loggerload - [@homePage, @home_pageTS-01] : User launch home page of an dsalgo project
+[INFO ] 2023-06-18 22:43:21.372 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:21.398 [main] Loggerload - User is on DSAlgo portal page
+[INFO ] 2023-06-18 22:43:21.723 [main] Loggerload - User clicks on "Getstarted link" on Main Page
+[INFO ] 2023-06-18 22:43:22.210 [main] Loggerload - Title of current page is ***** NumpyNinja ****
+[INFO ] 2023-06-18 22:43:22.331 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:22.332 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Datastructures" on home page without sign in
+[INFO ] 2023-06-18 22:43:22.332 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:22.334 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:22.825 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 22:43:22.856 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:22.857 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Arrays" on home page without sign in
+[INFO ] 2023-06-18 22:43:22.857 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:22.863 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:23.347 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 22:43:23.370 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:23.371 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Linkedlist" on home page without sign in
+[INFO ] 2023-06-18 22:43:23.371 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:23.372 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:23.803 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 22:43:23.834 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:23.834 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Stack" on home page without sign in
+[INFO ] 2023-06-18 22:43:23.834 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:23.836 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:24.278 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 22:43:24.301 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:24.302 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Queue" on home page without sign in
+[INFO ] 2023-06-18 22:43:24.302 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:24.303 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:24.809 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 22:43:24.826 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:24.826 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Tree" on home page without sign in
+[INFO ] 2023-06-18 22:43:24.827 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:24.828 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:25.303 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 22:43:25.318 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:25.318 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Graph" on home page without sign in
+[INFO ] 2023-06-18 22:43:25.318 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:25.319 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:25.835 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 22:43:25.871 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:25.871 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Arrays" without sign in
+[INFO ] 2023-06-18 22:43:25.872 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:25.873 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:26.007 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 22:43:26.366 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 22:43:26.390 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:26.390 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Linkedlist" without sign in
+[INFO ] 2023-06-18 22:43:26.391 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:26.392 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:26.540 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 22:43:26.926 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 22:43:26.952 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:26.952 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Stack" without sign in
+[INFO ] 2023-06-18 22:43:26.952 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:26.953 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:27.091 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 22:43:27.672 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 22:43:27.707 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:27.707 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Queue" without sign in
+[INFO ] 2023-06-18 22:43:27.708 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:27.709 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:28.090 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 22:43:28.854 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 22:43:28.879 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:28.879 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Tree" without sign in
+[INFO ] 2023-06-18 22:43:28.879 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:28.880 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:29.039 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 22:43:29.432 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 22:43:29.458 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:29.460 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Graph" without sign in
+[INFO ] 2023-06-18 22:43:29.460 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:29.461 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:29.599 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 22:43:29.991 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 22:43:30.018 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:30.019 [main] Loggerload - [@homePage, @home_pageTS-04] : User is on Home page and click on sign in
+[INFO ] 2023-06-18 22:43:30.019 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:30.020 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:30.161 [main] Loggerload - User clicks on Sign in 
+[INFO ] 2023-06-18 22:43:30.404 [main] Loggerload - User redirected to login page 
+[INFO ] 2023-06-18 22:43:30.416 [main] Loggerload - Title of current page is : Login
+[INFO ] 2023-06-18 22:43:30.440 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:30.440 [main] Loggerload - [@homePage, @home_pageTS-05] : User is on Home page and click on Register
+[INFO ] 2023-06-18 22:43:30.440 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:30.441 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 22:43:30.549 [main] Loggerload - User clicks on Register 
+[INFO ] 2023-06-18 22:43:30.776 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-18 22:43:30.803 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:30.803 [main] Loggerload - [@register, @TS_register_01] : User launch home page of an dsalgo project
+[INFO ] 2023-06-18 22:43:30.803 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:30.804 [main] Loggerload - User is on DSAlgo portal page
+[INFO ] 2023-06-18 22:43:30.938 [main] Loggerload - User clicks on "Getstarted link" on Main Page
+[INFO ] 2023-06-18 22:43:31.176 [main] Loggerload - Title of current page is ***** NumpyNinja ****
+[INFO ] 2023-06-18 22:43:31.209 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:31.209 [main] Loggerload - [@register, @TS_register_02] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-06-18 22:43:31.210 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:31.215 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 22:43:31.346 [main] Loggerload - The user do not enter any values
+[INFO ] 2023-06-18 22:43:31.347 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 22:43:31.530 [main] Loggerload - Error message is displayed Please fill out this field. an error below Username textbox
+[INFO ] 2023-06-18 22:43:31.651 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:31.651 [main] Loggerload - [@register, @TS_register_03] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-06-18 22:43:31.651 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:31.652 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 22:43:31.804 [main] Loggerload - The user enter valid username with other fields empty
+[INFO ] 2023-06-18 22:43:31.806 [main] Loggerload - The user enter username as : dsalgo_123
+[INFO ] 2023-06-18 22:43:31.856 [main] Loggerload - Error message is displayed Please fill out this field. an error below Password textbox
+[INFO ] 2023-06-18 22:43:31.967 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:31.967 [main] Loggerload - [@register, @TS_register_04] : The user is presented with error message for empty fields below confirm Password textbox
+[INFO ] 2023-06-18 22:43:31.968 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:31.968 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 22:43:32.087 [main] Loggerload - The user enter username as : username
+[INFO ] 2023-06-18 22:43:32.088 [main] Loggerload - The user enter password as : dsalgo123
+[INFO ] 2023-06-18 22:43:32.234 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 22:43:32.383 [main] Loggerload - Error message is displayed Please fill out this field. an error below Username textbox
+[INFO ] 2023-06-18 22:43:32.520 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:32.521 [main] Loggerload - [@register, @TS_register_05] : The user is presented with error message for invalid username
+[INFO ] 2023-06-18 22:43:32.521 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:32.522 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 22:43:32.663 [main] Loggerload - The user enter username as : &**&**&
+[INFO ] 2023-06-18 22:43:32.664 [main] Loggerload - The user enter password as : testpassword
+[INFO ] 2023-06-18 22:43:32.792 [main] Loggerload - The user enter confirm password as : testpassword
+[INFO ] 2023-06-18 22:43:32.904 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 22:43:32.991 [main] Loggerload - Expected Error message is as : password_mismatch:The two password fields didn?t match.
+[INFO ] 2023-06-18 22:43:43.052 [main] Loggerload - No such element
+[INFO ] 2023-06-18 22:43:43.053 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 22:43:53.072 [main] Loggerload - No such element
+[INFO ] 2023-06-18 22:43:53.518 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:43:53.519 [main] Loggerload - [@register, @TS_register_06] : The user is presented with error message for password mismatch
+[INFO ] 2023-06-18 22:43:53.519 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:43:53.520 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 22:43:53.658 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 22:43:53.658 [main] Loggerload - The user enter password as : testpassword
+[INFO ] 2023-06-18 22:43:53.762 [main] Loggerload - The user enter confirm password as : testpassword1
+[INFO ] 2023-06-18 22:43:53.867 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 22:43:53.960 [main] Loggerload - Expected Error message is as : password_mismatch:The two password fields didn?t match.
+[INFO ] 2023-06-18 22:44:04.002 [main] Loggerload - No such element
+[INFO ] 2023-06-18 22:44:04.003 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 22:44:14.068 [main] Loggerload - No such element
+[INFO ] 2023-06-18 22:44:14.423 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:44:14.424 [main] Loggerload - [@register, @TS_register_07] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-06-18 22:44:14.424 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:44:14.424 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 22:44:14.552 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 22:44:14.552 [main] Loggerload - The user enter password as : a1b2c3d
+[INFO ] 2023-06-18 22:44:14.687 [main] Loggerload - The user enter confirm password as : a1b2c3d
+[INFO ] 2023-06-18 22:44:14.791 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 22:44:14.893 [main] Loggerload - Expected Error message is as : Password should contain at least 8 characters
+[INFO ] 2023-06-18 22:44:24.919 [main] Loggerload - No such element
+[INFO ] 2023-06-18 22:44:24.920 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 22:44:34.929 [main] Loggerload - No such element
+[INFO ] 2023-06-18 22:44:35.269 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:44:35.269 [main] Loggerload - [@register, @TS_register_08] : The user is presented with error message for password with only numbers
+[INFO ] 2023-06-18 22:44:35.270 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:44:35.270 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 22:44:35.438 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 22:44:35.439 [main] Loggerload - The user enter password as : 12345678
+[INFO ] 2023-06-18 22:44:35.563 [main] Loggerload - The user enter confirm password as : 12345678
+[INFO ] 2023-06-18 22:44:35.692 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 22:44:35.812 [main] Loggerload - Expected Error message is as : Password cannot be entirely numeric.
+[INFO ] 2023-06-18 22:44:45.882 [main] Loggerload - No such element
+[INFO ] 2023-06-18 22:44:45.882 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 22:44:55.900 [main] Loggerload - No such element
+[INFO ] 2023-06-18 22:44:56.252 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:44:56.253 [main] Loggerload - [@register, @TS_register_09] : The user is presented with error message for password too similar to your other personal information
+[INFO ] 2023-06-18 22:44:56.253 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:44:56.254 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 22:44:56.371 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 22:44:56.371 [main] Loggerload - The user enter password as : testsdet84
+[INFO ] 2023-06-18 22:44:56.494 [main] Loggerload - The user enter confirm password as : testsdet84
+[INFO ] 2023-06-18 22:44:56.623 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 22:44:56.719 [main] Loggerload - Expected Error message is as : password cannot be too similar to your other personal information.
+[INFO ] 2023-06-18 22:45:06.744 [main] Loggerload - No such element
+[INFO ] 2023-06-18 22:45:06.745 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 22:45:16.801 [main] Loggerload - No such element
+[INFO ] 2023-06-18 22:45:17.161 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:45:17.161 [main] Loggerload - [@register, @TS_register_10] : The user is presented with error message for commonly used password
+[INFO ] 2023-06-18 22:45:17.162 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:45:17.163 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 22:45:17.487 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 22:45:17.487 [main] Loggerload - The user enter password as : Welcome1
+[INFO ] 2023-06-18 22:45:17.629 [main] Loggerload - The user enter confirm password as : Welcome1
+[INFO ] 2023-06-18 22:45:17.783 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 22:45:17.884 [main] Loggerload - Expected Error message is as : Password cannot be commonly used password
+[INFO ] 2023-06-18 22:45:27.907 [main] Loggerload - No such element
+[INFO ] 2023-06-18 22:45:27.907 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 22:45:37.939 [main] Loggerload - No such element
+[INFO ] 2023-06-18 22:45:38.284 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:45:38.285 [main] Loggerload - [@register, @TS_register_11] : The user redirected to Homepage with valid details
+[INFO ] 2023-06-18 22:45:38.285 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:45:38.285 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 22:45:38.481 [main] Loggerload - The user enter username as : username
+[INFO ] 2023-06-18 22:45:38.482 [main] Loggerload - The user enter password as : dsalgo123
+[INFO ] 2023-06-18 22:45:38.594 [main] Loggerload - The user enter confirm password as : dsalgo123
+[INFO ] 2023-06-18 22:45:38.694 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 22:45:38.779 [main] Loggerload - User redirected to Homepage 
+[INFO ] 2023-06-18 22:45:38.791 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-18 22:45:38.815 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:45:38.816 [main] Loggerload - [@register, @TS_register_12] : The user is presented with error message for existing username
+[INFO ] 2023-06-18 22:45:38.816 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:45:38.816 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 22:45:39.204 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 22:45:39.204 [main] Loggerload - The user enter password as : RT56YUabc
+[INFO ] 2023-06-18 22:45:39.354 [main] Loggerload - The user enter confirm password as : RT56YUabc
+[INFO ] 2023-06-18 22:45:39.491 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 22:45:39.603 [main] Loggerload - Expected Error message is as : Username already exists
+[INFO ] 2023-06-18 22:45:49.689 [main] Loggerload - No such element
+[INFO ] 2023-06-18 22:45:49.689 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 22:45:59.731 [main] Loggerload - No such element
+[INFO ] 2023-06-18 22:46:00.098 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:46:00.098 [main] Loggerload - [@signin, @TS_signin_01] : Verifying Register link
+[INFO ] 2023-06-18 22:46:00.098 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:46:00.109 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 22:46:00.290 [main] Loggerload - User clicks on Register 
+[INFO ] 2023-06-18 22:46:00.578 [main] Loggerload - User redirected to Registraion page 
+[INFO ] 2023-06-18 22:46:00.593 [main] Loggerload - Title of the Page : " Registration" 
+[INFO ] 2023-06-18 22:46:00.617 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:46:00.618 [main] Loggerload - [@signin, @TS_signin_02] : User on login page and login with invalid inputs "user" and ""
+[INFO ] 2023-06-18 22:46:00.618 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:46:00.618 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 22:46:00.880 [main] Loggerload - User Enter username as " user " and Password as " " 
+[INFO ] 2023-06-18 22:46:01.343 [main] Loggerload - Empty field value is validated
+[INFO ] 2023-06-18 22:46:01.344 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 22:46:01.466 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:46:01.466 [main] Loggerload - [@signin, @TS_signin_02] : User on login page and login with invalid inputs "" and "passowrd"
+[INFO ] 2023-06-18 22:46:01.466 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:46:01.466 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 22:46:01.722 [main] Loggerload - User Enter username as "  " and Password as " passowrd" 
+[INFO ] 2023-06-18 22:46:02.055 [main] Loggerload - Empty field value is validated
+[INFO ] 2023-06-18 22:46:02.056 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 22:46:02.183 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:46:02.184 [main] Loggerload - [@signin, @TS_signin_02] : User on login page and login with invalid inputs "" and ""
+[INFO ] 2023-06-18 22:46:02.184 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:46:02.185 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 22:46:02.328 [main] Loggerload - User Enter username as "  " and Password as " " 
+[INFO ] 2023-06-18 22:46:02.698 [main] Loggerload - Empty field value is validated
+[INFO ] 2023-06-18 22:46:02.699 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 22:46:02.796 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:46:02.796 [main] Loggerload - [@signin, @TS_signin_03] : User on login page and login with invalid and valid inputs from Excel "Sheet1" and 0
+[INFO ] 2023-06-18 22:46:02.797 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:46:02.798 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 22:46:04.609 [main] Loggerload - User Enter username as " username "and Password as " user" 
+[INFO ] 2023-06-18 22:46:04.884 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 22:46:04.884 [main] Loggerload - Expected Message - Excel Sheet :  Invalid Username and Password
+[INFO ] 2023-06-18 22:46:05.251 [main] Loggerload - Actual Message :  Invalid Username and Password
+[INFO ] 2023-06-18 22:46:05.274 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:46:05.274 [main] Loggerload - [@signin, @TS_signin_03] : User on login page and login with invalid and valid inputs from Excel "Sheet1" and 1
+[INFO ] 2023-06-18 22:46:05.275 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:46:05.275 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 22:46:05.697 [main] Loggerload - User Enter username as " user "and Password as " username" 
+[INFO ] 2023-06-18 22:46:06.047 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 22:46:06.047 [main] Loggerload - Expected Message - Excel Sheet :  Invalid Username and Password
+[INFO ] 2023-06-18 22:46:06.464 [main] Loggerload - Actual Message :  Invalid Username and Password
+[INFO ] 2023-06-18 22:46:06.485 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:46:06.485 [main] Loggerload - [@signin, @TS_signin_03] : User on login page and login with invalid and valid inputs from Excel "Sheet1" and 2
+[INFO ] 2023-06-18 22:46:06.485 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:46:06.486 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 22:46:06.702 [main] Loggerload - User Enter username as " username "and Password as " dsalgo123" 
+[INFO ] 2023-06-18 22:46:07.094 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 22:46:07.094 [main] Loggerload - Expected Message - Excel Sheet :  You are logged in
+[INFO ] 2023-06-18 22:46:07.673 [main] Loggerload - Actual Message :  You are logged in
+[INFO ] 2023-06-18 22:46:07.696 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:46:07.697 [main] Loggerload - [@signin, @TS_signin_03] : User on login page and login with invalid and valid inputs from Excel "Sheet1" and 3
+[INFO ] 2023-06-18 22:46:07.697 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:46:07.697 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 22:46:07.906 [main] Loggerload - User Enter username as " Numpy "and Password as " NumpyNinja" 
+[INFO ] 2023-06-18 22:46:08.263 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 22:46:08.264 [main] Loggerload - Expected Message - Excel Sheet :  Invalid Username and Password
+[INFO ] 2023-06-18 22:46:08.751 [main] Loggerload - Actual Message :  Invalid Username and Password
+[INFO ] 2023-06-18 22:46:08.770 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:46:08.770 [main] Loggerload - [@signin, @TS_signin_04] : Verifying signout link
+[INFO ] 2023-06-18 22:46:08.770 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:46:10.081 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 22:46:10.105 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:46:10.105 [main] Loggerload - [@array, @TS_array_02] : The user is able to navigate to "ARRAY" Data Structure Page
+[INFO ] 2023-06-18 22:46:10.105 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:46:10.106 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 22:46:10.248 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 22:46:11.109 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 22:46:11.235 [main] Loggerload - The user is on the home page after logged in
+[INFO ] 2023-06-18 22:46:11.237 [main] Loggerload - The user select Array item from the drop down menu
+[INFO ] 2023-06-18 22:46:11.628 [main] Loggerload - User redirected to Array Page 
+[INFO ] 2023-06-18 22:46:11.638 [main] Loggerload - Title of current page is : Array
+[INFO ] 2023-06-18 22:46:11.661 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:46:11.661 [main] Loggerload - [@array, @TS_array_03] : The user is able to navigate to Arrays in Python page
+[INFO ] 2023-06-18 22:46:11.661 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:46:11.662 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 22:46:11.866 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 22:46:12.775 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 22:46:12.958 [main] Loggerload - The user is on the Array page after logged in
+[INFO ] 2023-06-18 22:46:13.880 [main] Loggerload - User redirected to Arrays in Python Page 
+[INFO ] 2023-06-18 22:46:13.892 [main] Loggerload - Title of current page is : Arrays in Python
+[INFO ] 2023-06-18 22:46:13.913 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:46:13.913 [main] Loggerload - [@array, @TS_array_04] : The user is able to navigate to a page having an tryEditor from Arrays in Python page
+[INFO ] 2023-06-18 22:46:13.914 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:46:13.915 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 22:46:14.087 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 22:46:14.870 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 22:46:15.109 [main] Loggerload - The user is on the Arrays in Python page after logged in
+[INFO ] 2023-06-18 22:46:16.545 [main] Loggerload - User redirected to a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 22:46:16.554 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 22:46:16.583 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:46:16.583 [main] Loggerload - [@array, @TS_array_05] : The user is able run code in tryEditor for Arrays in Python page
+[INFO ] 2023-06-18 22:46:16.583 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:46:16.585 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 22:46:17.195 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 22:46:18.350 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 22:46:18.352 [main] Loggerload - The user is in a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 22:46:18.574 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 22:46:18.575 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ] 2023-06-18 22:46:19.257 [main] Loggerload - Actual result  : hello
+[INFO ] 2023-06-18 22:46:19.283 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 22:46:19.283 [main] Loggerload - [@array, @TS_array_06] : The user is presented with error message for code with invalid syntax in tryEditor for Arrays in Python page
+[INFO ] 2023-06-18 22:46:19.284 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 22:46:19.285 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 22:46:19.583 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 22:46:20.469 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 22:46:20.470 [main] Loggerload - The user is in a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 22:46:20.692 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 22:46:20.693 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ] 2023-06-18 22:46:21.087 [main] Loggerload - Actual Error message is  : NameError: name 'hello' is not defined on line 1
+[INFO ] 2023-06-18 23:33:04.462 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:04.465 [main] Loggerload - [@homePage, @home_pageTS-01] : User launch home page of an dsalgo project
+[INFO ] 2023-06-18 23:33:04.465 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:04.483 [main] Loggerload - User is on DSAlgo portal page
+[INFO ] 2023-06-18 23:33:05.387 [main] Loggerload - User clicks on "Getstarted link" on Main Page
+[INFO ] 2023-06-18 23:33:06.221 [main] Loggerload - Title of current page is ***** NumpyNinja ****
+[INFO ] 2023-06-18 23:33:06.311 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:06.311 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Datastructures" on home page without sign in
+[INFO ] 2023-06-18 23:33:06.312 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:06.313 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:07.199 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:33:07.216 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:07.216 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Arrays" on home page without sign in
+[INFO ] 2023-06-18 23:33:07.217 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:07.218 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:07.626 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:33:07.666 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:07.666 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Linkedlist" on home page without sign in
+[INFO ] 2023-06-18 23:33:07.667 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:07.667 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:08.096 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:33:08.112 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:08.112 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Stack" on home page without sign in
+[INFO ] 2023-06-18 23:33:08.112 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:08.114 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:08.550 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:33:08.564 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:08.564 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Queue" on home page without sign in
+[INFO ] 2023-06-18 23:33:08.564 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:08.565 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:09.038 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:33:09.065 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:09.065 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Tree" on home page without sign in
+[INFO ] 2023-06-18 23:33:09.065 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:09.067 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:09.501 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:33:09.542 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:09.543 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Graph" on home page without sign in
+[INFO ] 2023-06-18 23:33:09.543 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:09.544 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:09.955 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:33:09.996 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:09.997 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Arrays" without sign in
+[INFO ] 2023-06-18 23:33:09.997 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:09.998 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:10.105 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 23:33:10.452 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:33:10.479 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:10.480 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Linkedlist" without sign in
+[INFO ] 2023-06-18 23:33:10.480 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:10.482 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:10.603 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 23:33:10.977 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:33:10.999 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:10.999 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Stack" without sign in
+[INFO ] 2023-06-18 23:33:10.999 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:11.001 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:11.102 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 23:33:11.479 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:33:11.506 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:11.506 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Queue" without sign in
+[INFO ] 2023-06-18 23:33:11.507 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:11.508 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:11.623 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 23:33:12.028 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:33:12.054 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:12.055 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Tree" without sign in
+[INFO ] 2023-06-18 23:33:12.055 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:12.057 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:12.170 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 23:33:12.522 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:33:12.551 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:12.551 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Graph" without sign in
+[INFO ] 2023-06-18 23:33:12.551 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:12.553 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:12.668 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 23:33:13.014 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:33:13.036 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:13.037 [main] Loggerload - [@homePage, @home_pageTS-04] : User is on Home page and click on sign in
+[INFO ] 2023-06-18 23:33:13.037 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:13.038 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:13.370 [main] Loggerload - User clicks on Sign in 
+[INFO ] 2023-06-18 23:33:13.872 [main] Loggerload - User redirected to login page 
+[INFO ] 2023-06-18 23:33:13.883 [main] Loggerload - Title of current page is : Login
+[INFO ] 2023-06-18 23:33:13.902 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:13.902 [main] Loggerload - [@homePage, @home_pageTS-05] : User is on Home page and click on Register
+[INFO ] 2023-06-18 23:33:13.902 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:13.905 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:33:14.214 [main] Loggerload - User clicks on Register 
+[INFO ] 2023-06-18 23:33:14.796 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-18 23:33:14.826 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:14.828 [main] Loggerload - [@register, @TS_register_01] : User launch home page of an dsalgo project
+[INFO ] 2023-06-18 23:33:14.828 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:14.829 [main] Loggerload - User is on DSAlgo portal page
+[INFO ] 2023-06-18 23:33:15.127 [main] Loggerload - User clicks on "Getstarted link" on Main Page
+[INFO ] 2023-06-18 23:33:15.342 [main] Loggerload - Title of current page is ***** NumpyNinja ****
+[INFO ] 2023-06-18 23:33:15.363 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:15.364 [main] Loggerload - [@register, @TS_register_02] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-06-18 23:33:15.364 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:15.366 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:33:15.508 [main] Loggerload - The user do not enter any values
+[INFO ] 2023-06-18 23:33:15.509 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:33:15.676 [main] Loggerload - Error message is displayed Please fill out this field. an error below Username textbox
+[INFO ] 2023-06-18 23:33:15.770 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:15.771 [main] Loggerload - [@register, @TS_register_03] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-06-18 23:33:15.771 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:15.771 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:33:15.879 [main] Loggerload - The user enter valid username with other fields empty
+[INFO ] 2023-06-18 23:33:15.882 [main] Loggerload - The user enter username as : dsalgo_123
+[INFO ] 2023-06-18 23:33:15.929 [main] Loggerload - Error message is displayed Please fill out this field. an error below Password textbox
+[INFO ] 2023-06-18 23:33:16.030 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:16.031 [main] Loggerload - [@register, @TS_register_04] : The user is presented with error message for empty fields below confirm Password textbox
+[INFO ] 2023-06-18 23:33:16.031 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:16.032 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:33:16.152 [main] Loggerload - The user enter username as : username
+[INFO ] 2023-06-18 23:33:16.153 [main] Loggerload - The user enter password as : dsalgo123
+[INFO ] 2023-06-18 23:33:16.278 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:33:16.420 [main] Loggerload - Error message is displayed Please fill out this field. an error below Username textbox
+[INFO ] 2023-06-18 23:33:16.572 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:16.573 [main] Loggerload - [@register, @TS_register_05] : The user is presented with error message for invalid username
+[INFO ] 2023-06-18 23:33:16.573 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:16.574 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:33:16.706 [main] Loggerload - The user enter username as : &**&**&
+[INFO ] 2023-06-18 23:33:16.707 [main] Loggerload - The user enter password as : testpassword
+[INFO ] 2023-06-18 23:33:16.817 [main] Loggerload - The user enter confirm password as : testpassword
+[INFO ] 2023-06-18 23:33:16.926 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:33:17.015 [main] Loggerload - Expected Error message is as : password_mismatch:The two password fields didn?t match.
+[INFO ] 2023-06-18 23:33:27.097 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:33:27.098 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 23:33:37.147 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:33:37.894 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:37.896 [main] Loggerload - [@register, @TS_register_06] : The user is presented with error message for password mismatch
+[INFO ] 2023-06-18 23:33:37.896 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:37.897 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:33:38.121 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 23:33:38.121 [main] Loggerload - The user enter password as : testpassword
+[INFO ] 2023-06-18 23:33:38.244 [main] Loggerload - The user enter confirm password as : testpassword1
+[INFO ] 2023-06-18 23:33:38.369 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:33:38.475 [main] Loggerload - Expected Error message is as : password_mismatch:The two password fields didn?t match.
+[INFO ] 2023-06-18 23:33:48.486 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:33:48.487 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 23:33:58.540 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:33:59.293 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:33:59.294 [main] Loggerload - [@register, @TS_register_07] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-06-18 23:33:59.294 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:33:59.295 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:33:59.522 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 23:33:59.523 [main] Loggerload - The user enter password as : a1b2c3d
+[INFO ] 2023-06-18 23:33:59.665 [main] Loggerload - The user enter confirm password as : a1b2c3d
+[INFO ] 2023-06-18 23:33:59.786 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:33:59.890 [main] Loggerload - Expected Error message is as : Password should contain at least 8 characters
+[INFO ] 2023-06-18 23:42:51.166 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:42:51.169 [main] Loggerload - [@homePage, @home_pageTS-01] : User launch home page of an dsalgo project
+[INFO ] 2023-06-18 23:42:51.170 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:42:51.200 [main] Loggerload - User is on DSAlgo portal page
+[INFO ] 2023-06-18 23:42:52.303 [main] Loggerload - User clicks on "Getstarted link" on Main Page
+[INFO ] 2023-06-18 23:42:53.033 [main] Loggerload - Title of current page is ***** NumpyNinja ****
+[INFO ] 2023-06-18 23:42:53.165 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:42:53.165 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Datastructures" on home page without sign in
+[INFO ] 2023-06-18 23:42:53.165 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:42:53.169 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:42:53.703 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:42:53.749 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:42:53.749 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Arrays" on home page without sign in
+[INFO ] 2023-06-18 23:42:53.750 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:42:53.751 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:42:54.277 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:42:54.318 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:42:54.319 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Linkedlist" on home page without sign in
+[INFO ] 2023-06-18 23:42:54.319 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:42:54.320 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:42:54.802 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:42:54.833 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:42:54.833 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Stack" on home page without sign in
+[INFO ] 2023-06-18 23:42:54.834 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:42:54.835 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:42:55.330 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:42:55.357 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:42:55.358 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Queue" on home page without sign in
+[INFO ] 2023-06-18 23:42:55.358 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:42:55.361 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:42:55.870 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:42:55.906 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:42:55.907 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Tree" on home page without sign in
+[INFO ] 2023-06-18 23:42:55.907 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:42:55.910 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:42:56.356 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:42:56.388 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:42:56.389 [main] Loggerload - [@homePage, @home_pageTS-02] : User is on Home page and click getstarted link "Graph" on home page without sign in
+[INFO ] 2023-06-18 23:42:56.389 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:42:56.390 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:42:56.854 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:42:56.882 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:42:56.882 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Arrays" without sign in
+[INFO ] 2023-06-18 23:42:56.882 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:42:56.883 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:42:57.006 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 23:42:57.744 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:42:57.769 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:42:57.769 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Linkedlist" without sign in
+[INFO ] 2023-06-18 23:42:57.770 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:42:57.771 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:42:58.126 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 23:42:58.709 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:42:58.733 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:42:58.733 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Stack" without sign in
+[INFO ] 2023-06-18 23:42:58.733 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:42:58.734 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:42:59.125 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 23:42:59.510 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:42:59.528 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:42:59.528 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Queue" without sign in
+[INFO ] 2023-06-18 23:42:59.528 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:42:59.529 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:42:59.655 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 23:43:00.060 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:43:00.079 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:43:00.079 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Tree" without sign in
+[INFO ] 2023-06-18 23:43:00.079 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:43:00.080 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:43:00.194 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 23:43:00.538 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:43:00.561 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:43:00.561 [main] Loggerload - [@homePage, @home_pageTS-03] : User is on Home page and click on dropdown "Graph" without sign in
+[INFO ] 2023-06-18 23:43:00.561 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:43:00.562 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:43:00.672 [main] Loggerload - User clicks on dropdown without login
+[INFO ] 2023-06-18 23:43:01.045 [main] Loggerload - Actual Message : You are not logged in
+[INFO ] 2023-06-18 23:43:01.063 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:43:01.063 [main] Loggerload - [@homePage, @home_pageTS-04] : User is on Home page and click on sign in
+[INFO ] 2023-06-18 23:43:01.063 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:43:01.064 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:43:01.169 [main] Loggerload - User clicks on Sign in 
+[INFO ] 2023-06-18 23:43:01.537 [main] Loggerload - User redirected to login page 
+[INFO ] 2023-06-18 23:43:01.549 [main] Loggerload - Title of current page is : Login
+[INFO ] 2023-06-18 23:43:01.567 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:43:01.569 [main] Loggerload - [@homePage, @home_pageTS-05] : User is on Home page and click on Register
+[INFO ] 2023-06-18 23:43:01.569 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:43:01.570 [main] Loggerload - User is on Home page
+[INFO ] 2023-06-18 23:43:01.685 [main] Loggerload - User clicks on Register 
+[INFO ] 2023-06-18 23:43:01.905 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-18 23:43:01.936 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:43:01.936 [main] Loggerload - [@register, @TS_register_01] : User launch home page of an dsalgo project
+[INFO ] 2023-06-18 23:43:01.936 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:43:01.937 [main] Loggerload - User is on DSAlgo portal page
+[INFO ] 2023-06-18 23:43:02.276 [main] Loggerload - User clicks on "Getstarted link" on Main Page
+[INFO ] 2023-06-18 23:43:02.766 [main] Loggerload - Title of current page is ***** NumpyNinja ****
+[INFO ] 2023-06-18 23:43:02.783 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:43:02.784 [main] Loggerload - [@register, @TS_register_02] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-06-18 23:43:02.784 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:43:02.786 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:43:03.244 [main] Loggerload - The user do not enter any values
+[INFO ] 2023-06-18 23:43:03.244 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:43:03.420 [main] Loggerload - Error message is displayed Please fill out this field. an error below Username textbox
+[INFO ] 2023-06-18 23:43:03.515 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:43:03.515 [main] Loggerload - [@register, @TS_register_03] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-06-18 23:43:03.515 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:43:03.516 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:43:03.632 [main] Loggerload - The user enter valid username with other fields empty
+[INFO ] 2023-06-18 23:43:03.634 [main] Loggerload - The user enter username as : dsalgo_123
+[INFO ] 2023-06-18 23:43:03.676 [main] Loggerload - Error message is displayed Please fill out this field. an error below Password textbox
+[INFO ] 2023-06-18 23:43:03.750 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:43:03.750 [main] Loggerload - [@register, @TS_register_04] : The user is presented with error message for empty fields below confirm Password textbox
+[INFO ] 2023-06-18 23:43:03.750 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:43:03.752 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:43:03.871 [main] Loggerload - The user enter username as : username
+[INFO ] 2023-06-18 23:43:03.871 [main] Loggerload - The user enter password as : dsalgo123
+[INFO ] 2023-06-18 23:43:03.972 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:43:04.097 [main] Loggerload - Error message is displayed Please fill out this field. an error below Username textbox
+[INFO ] 2023-06-18 23:43:04.250 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:43:04.251 [main] Loggerload - [@register, @TS_register_05] : The user is presented with error message for invalid username
+[INFO ] 2023-06-18 23:43:04.251 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:43:04.252 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:43:04.388 [main] Loggerload - The user enter username as : &**&**&
+[INFO ] 2023-06-18 23:43:04.388 [main] Loggerload - The user enter password as : testpassword
+[INFO ] 2023-06-18 23:43:04.529 [main] Loggerload - The user enter confirm password as : testpassword
+[INFO ] 2023-06-18 23:43:04.656 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:43:04.767 [main] Loggerload - Expected Error message is as : password_mismatch:The two password fields didn?t match.
+[INFO ] 2023-06-18 23:43:14.809 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:43:14.810 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 23:43:24.858 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:43:25.404 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:43:25.404 [main] Loggerload - [@register, @TS_register_06] : The user is presented with error message for password mismatch
+[INFO ] 2023-06-18 23:43:25.405 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:43:25.407 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:43:25.593 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 23:43:25.594 [main] Loggerload - The user enter password as : testpassword
+[INFO ] 2023-06-18 23:43:25.697 [main] Loggerload - The user enter confirm password as : testpassword1
+[INFO ] 2023-06-18 23:43:25.798 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:43:25.884 [main] Loggerload - Expected Error message is as : password_mismatch:The two password fields didn?t match.
+[INFO ] 2023-06-18 23:43:35.901 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:43:35.902 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 23:43:45.953 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:43:46.585 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:43:46.586 [main] Loggerload - [@register, @TS_register_07] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-06-18 23:43:46.586 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:43:46.587 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:43:46.773 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 23:43:46.774 [main] Loggerload - The user enter password as : a1b2c3d
+[INFO ] 2023-06-18 23:43:46.919 [main] Loggerload - The user enter confirm password as : a1b2c3d
+[INFO ] 2023-06-18 23:43:47.041 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:43:47.152 [main] Loggerload - Expected Error message is as : Password should contain at least 8 characters
+[INFO ] 2023-06-18 23:43:57.184 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:43:57.184 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 23:44:07.202 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:44:07.843 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:44:07.843 [main] Loggerload - [@register, @TS_register_08] : The user is presented with error message for password with only numbers
+[INFO ] 2023-06-18 23:44:07.844 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:44:07.844 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:44:08.028 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 23:44:08.028 [main] Loggerload - The user enter password as : 12345678
+[INFO ] 2023-06-18 23:44:08.158 [main] Loggerload - The user enter confirm password as : 12345678
+[INFO ] 2023-06-18 23:44:08.273 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:44:08.374 [main] Loggerload - Expected Error message is as : Password cannot be entirely numeric.
+[INFO ] 2023-06-18 23:44:18.391 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:44:18.391 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 23:44:28.416 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:44:28.990 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:44:28.991 [main] Loggerload - [@register, @TS_register_09] : The user is presented with error message for password too similar to your other personal information
+[INFO ] 2023-06-18 23:44:28.992 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:44:28.993 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:44:29.175 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 23:44:29.177 [main] Loggerload - The user enter password as : testsdet84
+[INFO ] 2023-06-18 23:44:29.324 [main] Loggerload - The user enter confirm password as : testsdet84
+[INFO ] 2023-06-18 23:44:29.449 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:44:29.567 [main] Loggerload - Expected Error message is as : password cannot be too similar to your other personal information.
+[INFO ] 2023-06-18 23:44:39.584 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:44:39.584 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 23:44:49.630 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:44:50.273 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:44:50.273 [main] Loggerload - [@register, @TS_register_10] : The user is presented with error message for commonly used password
+[INFO ] 2023-06-18 23:44:50.273 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:44:50.274 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:44:50.718 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 23:44:50.719 [main] Loggerload - The user enter password as : Welcome1
+[INFO ] 2023-06-18 23:44:50.858 [main] Loggerload - The user enter confirm password as : Welcome1
+[INFO ] 2023-06-18 23:44:50.980 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:44:51.083 [main] Loggerload - Expected Error message is as : Password cannot be commonly used password
+[INFO ] 2023-06-18 23:45:01.114 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:45:01.114 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 23:45:11.136 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:45:11.716 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:11.716 [main] Loggerload - [@register, @TS_register_11] : The user redirected to Homepage with valid details
+[INFO ] 2023-06-18 23:45:11.716 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:11.718 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:45:11.906 [main] Loggerload - The user enter username as : username
+[INFO ] 2023-06-18 23:45:11.906 [main] Loggerload - The user enter password as : dsalgo123
+[INFO ] 2023-06-18 23:45:12.063 [main] Loggerload - The user enter confirm password as : dsalgo123
+[INFO ] 2023-06-18 23:45:12.197 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:45:12.327 [main] Loggerload - User redirected to Homepage 
+[INFO ] 2023-06-18 23:45:12.343 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-18 23:45:12.371 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:12.371 [main] Loggerload - [@register, @TS_register_12] : The user is presented with error message for existing username
+[INFO ] 2023-06-18 23:45:12.372 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:12.373 [main] Loggerload - The user opens Register Page
+[INFO ] 2023-06-18 23:45:12.831 [main] Loggerload - The user enter username as : Numpy@sdet84_1
+[INFO ] 2023-06-18 23:45:12.831 [main] Loggerload - The user enter password as : RT56YUabc
+[INFO ] 2023-06-18 23:45:12.972 [main] Loggerload - The user enter confirm password as : RT56YUabc
+[INFO ] 2023-06-18 23:45:13.106 [main] Loggerload - The user clicks on Register button
+[INFO ] 2023-06-18 23:45:13.208 [main] Loggerload - Expected Error message is as : Username already exists
+[INFO ] 2023-06-18 23:45:23.233 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:45:23.233 [main] Loggerload - Error message is displayed as : null
+[INFO ] 2023-06-18 23:45:33.245 [main] Loggerload - No such element
+[INFO ] 2023-06-18 23:45:33.825 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:33.825 [main] Loggerload - [@signin, @TS_signin_01] : Verifying Register link
+[INFO ] 2023-06-18 23:45:33.826 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:33.836 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 23:45:34.128 [main] Loggerload - User clicks on Register 
+[INFO ] 2023-06-18 23:45:34.737 [main] Loggerload - User redirected to Registraion page 
+[INFO ] 2023-06-18 23:45:34.751 [main] Loggerload - Title of the Page : " Registration" 
+[INFO ] 2023-06-18 23:45:34.772 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:34.772 [main] Loggerload - [@signin, @TS_signin_02] : User on login page and login with invalid inputs "user" and ""
+[INFO ] 2023-06-18 23:45:34.773 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:34.775 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 23:45:35.322 [main] Loggerload - User Enter username as " user " and Password as " " 
+[INFO ] 2023-06-18 23:45:35.799 [main] Loggerload - Empty field value is validated
+[INFO ] 2023-06-18 23:45:35.801 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 23:45:35.953 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:35.953 [main] Loggerload - [@signin, @TS_signin_02] : User on login page and login with invalid inputs "" and "passowrd"
+[INFO ] 2023-06-18 23:45:35.953 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:35.955 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 23:45:36.331 [main] Loggerload - User Enter username as "  " and Password as " passowrd" 
+[INFO ] 2023-06-18 23:45:36.756 [main] Loggerload - Empty field value is validated
+[INFO ] 2023-06-18 23:45:36.758 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 23:45:36.895 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:36.896 [main] Loggerload - [@signin, @TS_signin_02] : User on login page and login with invalid inputs "" and ""
+[INFO ] 2023-06-18 23:45:36.896 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:36.896 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 23:45:37.249 [main] Loggerload - User Enter username as "  " and Password as " " 
+[INFO ] 2023-06-18 23:45:37.658 [main] Loggerload - Empty field value is validated
+[INFO ] 2023-06-18 23:45:37.659 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 23:45:37.804 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:37.804 [main] Loggerload - [@signin, @TS_signin_03] : User on login page and login with invalid and valid inputs from Excel "Sheet1" and 0
+[INFO ] 2023-06-18 23:45:37.805 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:37.807 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 23:45:39.577 [main] Loggerload - User Enter username as " username "and Password as " user" 
+[INFO ] 2023-06-18 23:45:39.957 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 23:45:39.957 [main] Loggerload - Expected Message - Excel Sheet :  Invalid Username and Password
+[INFO ] 2023-06-18 23:45:40.525 [main] Loggerload - Actual Message :  Invalid Username and Password
+[INFO ] 2023-06-18 23:45:40.561 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:40.561 [main] Loggerload - [@signin, @TS_signin_03] : User on login page and login with invalid and valid inputs from Excel "Sheet1" and 1
+[INFO ] 2023-06-18 23:45:40.561 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:40.563 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 23:45:41.141 [main] Loggerload - User Enter username as " user "and Password as " username" 
+[INFO ] 2023-06-18 23:45:41.541 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 23:45:41.541 [main] Loggerload - Expected Message - Excel Sheet :  Invalid Username and Password
+[INFO ] 2023-06-18 23:45:41.932 [main] Loggerload - Actual Message :  Invalid Username and Password
+[INFO ] 2023-06-18 23:45:41.956 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:41.956 [main] Loggerload - [@signin, @TS_signin_03] : User on login page and login with invalid and valid inputs from Excel "Sheet1" and 2
+[INFO ] 2023-06-18 23:45:41.956 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:41.958 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 23:45:42.175 [main] Loggerload - User Enter username as " username "and Password as " dsalgo123" 
+[INFO ] 2023-06-18 23:45:42.581 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 23:45:42.581 [main] Loggerload - Expected Message - Excel Sheet :  You are logged in
+[INFO ] 2023-06-18 23:45:43.136 [main] Loggerload - Actual Message :  You are logged in
+[INFO ] 2023-06-18 23:45:43.162 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:43.162 [main] Loggerload - [@signin, @TS_signin_03] : User on login page and login with invalid and valid inputs from Excel "Sheet1" and 3
+[INFO ] 2023-06-18 23:45:43.164 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:43.165 [main] Loggerload - User is on Sigin Page
+[INFO ] 2023-06-18 23:45:43.431 [main] Loggerload - User Enter username as " Numpy "and Password as " NumpyNinja" 
+[INFO ] 2023-06-18 23:45:43.861 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 23:45:43.862 [main] Loggerload - Expected Message - Excel Sheet :  Invalid Username and Password
+[INFO ] 2023-06-18 23:45:44.239 [main] Loggerload - Actual Message :  Invalid Username and Password
+[INFO ] 2023-06-18 23:45:44.262 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:44.263 [main] Loggerload - [@signin, @TS_signin_04] : Verifying signout link
+[INFO ] 2023-06-18 23:45:44.263 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:46.014 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 23:45:46.043 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:46.043 [main] Loggerload - [@array, @TS_array_02] : The user is able to navigate to "ARRAY" Data Structure Page
+[INFO ] 2023-06-18 23:45:46.044 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:46.045 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 23:45:46.254 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 23:45:47.260 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 23:45:47.421 [main] Loggerload - The user is on the home page after logged in
+[INFO ] 2023-06-18 23:45:47.425 [main] Loggerload - The user select Array item from the drop down menu
+[INFO ] 2023-06-18 23:45:47.876 [main] Loggerload - User redirected to Array Page 
+[INFO ] 2023-06-18 23:45:47.891 [main] Loggerload - Title of current page is : Array
+[INFO ] 2023-06-18 23:45:47.918 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:47.918 [main] Loggerload - [@array, @TS_array_03] : The user is able to navigate to Arrays in Python page
+[INFO ] 2023-06-18 23:45:47.918 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:47.919 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 23:45:48.205 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 23:45:49.295 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 23:45:49.772 [main] Loggerload - The user is on the Array page after logged in
+[INFO ] 2023-06-18 23:45:50.191 [main] Loggerload - User redirected to Arrays in Python Page 
+[INFO ] 2023-06-18 23:45:50.202 [main] Loggerload - Title of current page is : Arrays in Python
+[INFO ] 2023-06-18 23:45:50.225 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:50.226 [main] Loggerload - [@array, @TS_array_04] : The user is able to navigate to a page having an tryEditor from Arrays in Python page
+[INFO ] 2023-06-18 23:45:50.226 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:50.227 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 23:45:50.417 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 23:45:51.419 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 23:45:51.705 [main] Loggerload - The user is on the Arrays in Python page after logged in
+[INFO ] 2023-06-18 23:45:52.784 [main] Loggerload - User redirected to a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 23:45:52.795 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 23:45:52.823 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:52.823 [main] Loggerload - [@array, @TS_array_05] : The user is able run code in tryEditor for Arrays in Python page
+[INFO ] 2023-06-18 23:45:52.823 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:52.824 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 23:45:53.002 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 23:45:53.996 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 23:45:53.999 [main] Loggerload - The user is in a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 23:45:54.262 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 23:45:54.264 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ] 2023-06-18 23:45:55.037 [main] Loggerload - Actual result  : hello
+[INFO ] 2023-06-18 23:45:55.059 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-06-18 23:45:55.059 [main] Loggerload - [@array, @TS_array_06] : The user is presented with error message for code with invalid syntax in tryEditor for Arrays in Python page
+[INFO ] 2023-06-18 23:45:55.059 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-06-18 23:45:55.061 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2023-06-18 23:45:55.286 [main] Loggerload - User clicks on login button
+[INFO ] 2023-06-18 23:45:56.290 [main] Loggerload - Title of current page isNumpyNinja
+[INFO ] 2023-06-18 23:45:56.292 [main] Loggerload - The user is in a page having an tryEditor with a Run button to test
+[INFO ] 2023-06-18 23:45:56.565 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-06-18 23:45:56.567 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ] 2023-06-18 23:45:56.974 [main] Loggerload - Actual Error message is  : NameError: name 'hello' is not defined on line 1

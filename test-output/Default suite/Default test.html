@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>20/9/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>35/7/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 06 13:19:18 CDT 2023</td>
+<td>Started on:</td><td>Sun Jun 18 23:42:47 CDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>15 seconds (15191 ms)</td>
+<tr><td>Total time:</td><td>205 seconds (205777 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,309 +76,173 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid username", "Validating Register page"</td>
-<td><div><pre>java.lang.AssertionError: expected [Please enter a valid username] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:73)
-	at ?.It should display an error message &quot;Please enter a valid username&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:38)
-</pre></div><a href='#' onClick='toggleBox("stack-trace196161345", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace196161345'><pre>java.lang.AssertionError: expected [Please enter a valid username] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:73)
-	at ?.It should display an error message &quot;Please enter a valid username&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:38)
-</pre></div></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user redirected to Homepage with valid details", "Validating Register page"</td>
-<td><div><pre>java.lang.AssertionError: Title do not match expected [NumpyNinja] but found [Registration]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at StepDefinition.Register_StepDefinition.the_user_should_be_redirected_to_homepage_with_the_message(Register_StepDefinition.java:140)
-	at ?.The user should be redirected to Homepage with the message &quot;New Account Created. You are logged in as &lt;username&gt;&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:86)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1742498632", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1742498632'><pre>java.lang.AssertionError: Title do not match expected [NumpyNinja] but found [Registration]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at StepDefinition.Register_StepDefinition.the_user_should_be_redirected_to_homepage_with_the_message(Register_StepDefinition.java:140)
-	at ?.The user should be redirected to Homepage with the message &quot;New Account Created. You are logged in as &lt;username&gt;&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:86)
-</pre></div></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for password with characters less than 8", "Validating Register page"</td>
-<td><div><pre>java.lang.AssertionError: expected [Password should contain at least 8 characters] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:73)
-	at ?.It should display an error message &quot;Password should contain at least 8 characters&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:54)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2104246393", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2104246393'><pre>java.lang.AssertionError: expected [Password should contain at least 8 characters] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:73)
-	at ?.It should display an error message &quot;Password should contain at least 8 characters&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:54)
-</pre></div></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on signin page and login with valid credentials", "Validating Register page"</td>
-<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;The user is on signin page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user is on signin page&quot;)
-public void the_user_is_on_signin_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enter valid {string} and {string}&quot;)
-public void the_user_enter_valid_and(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;click login button to verify&quot;)
-public void click_login_button_to_verify() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace231256831", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace231256831'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;The user is on signin page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user is on signin page&quot;)
-public void the_user_is_on_signin_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enter valid {string} and {string}&quot;)
-public void the_user_enter_valid_and(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;click login button to verify&quot;)
-public void click_login_button_to_verify() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for password mismatch", "Validating Register page"</td>
-<td><div><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didnâ€™t match.] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:73)
-	at ?.It should display an error message &quot;password_mismatch:The two password fields didnâ€™t match.&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:46)
-</pre></div><a href='#' onClick='toggleBox("stack-trace987918378", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace987918378'><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didnâ€™t match.] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:73)
-	at ?.It should display an error message &quot;password_mismatch:The two password fields didnâ€™t match.&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:46)
-</pre></div></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for commonly used password", "Validating Register page"</td>
-<td><div><pre>java.lang.AssertionError: expected [Password canâ€™t be commonly used password] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:73)
-	at ?.It should display an error message &quot;Password canâ€™t be commonly used password&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:78)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1884568750", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1884568750'><pre>java.lang.AssertionError: expected [Password canâ€™t be commonly used password] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:73)
-	at ?.It should display an error message &quot;Password canâ€™t be commonly used password&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:78)
-</pre></div></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for password too similar to your other personal information", "Validating Register page"</td>
-<td><div><pre>java.lang.AssertionError: expected [password canâ€™t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:73)
-	at ?.It should display an error message &quot;password canâ€™t be too similar to your other personal information.&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:70)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1705969074", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1705969074'><pre>java.lang.AssertionError: expected [password canâ€™t be too similar to your other personal information.] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:73)
-	at ?.It should display an error message &quot;password canâ€™t be too similar to your other personal information.&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:70)
-</pre></div></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
 <td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for existing username", "Validating Register page"</td>
-<td><div><pre>java.lang.AssertionError: expected [Username already exists] but found [password_mismatch:The two password fields didn’t match.]
+<td><div><pre>java.lang.AssertionError: expected [Username already exists] but found [null]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:73)
-	at ?.It should display an error message &quot;Username already exists&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:94)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1022927413", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1022927413'><pre>java.lang.AssertionError: expected [Username already exists] but found [password_mismatch:The two password fields didn’t match.]
+	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:94)
+	at ?.It should display an error message &quot;Username already exists&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/02Register.feature:94)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1684572536", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1684572536'><pre>java.lang.AssertionError: expected [Username already exists] but found [null]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:73)
-	at ?.It should display an error message &quot;Username already exists&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:94)
+	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:94)
+	at ?.It should display an error message &quot;Username already exists&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/02Register.feature:94)
 </pre></div></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
+<td>21</td>
+<td>Runner.testRunner@3b35a229</td></tr>
 <tr>
 <td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for password with only numbers", "Validating Register page"</td>
-<td><div><pre>java.lang.AssertionError: expected [Password canâ€™t be entirely numeric.] but found [password_mismatch:The two password fields didn’t match.]
+<td><div><pre>java.lang.AssertionError: expected [Password cannot be entirely numeric.] but found [null]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:73)
-	at ?.It should display an error message &quot;Password canâ€™t be entirely numeric.&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:62)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1097536101", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1097536101'><pre>java.lang.AssertionError: expected [Password canâ€™t be entirely numeric.] but found [password_mismatch:The two password fields didn’t match.]
+	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:94)
+	at ?.It should display an error message &quot;Password cannot be entirely numeric.&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/02Register.feature:62)
+</pre></div><a href='#' onClick='toggleBox("stack-trace440159038", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace440159038'><pre>java.lang.AssertionError: expected [Password cannot be entirely numeric.] but found [null]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:73)
-	at ?.It should display an error message &quot;Password canâ€™t be entirely numeric.&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/Register.feature:62)
+	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:94)
+	at ?.It should display an error message &quot;Password cannot be entirely numeric.&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/02Register.feature:62)
 </pre></div></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
+<td>21</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for commonly used password", "Validating Register page"</td>
+<td><div><pre>java.lang.AssertionError: expected [Password cannot be commonly used password] but found [null]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:94)
+	at ?.It should display an error message &quot;Password cannot be commonly used password&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/02Register.feature:78)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1031486232", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1031486232'><pre>java.lang.AssertionError: expected [Password cannot be commonly used password] but found [null]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:94)
+	at ?.It should display an error message &quot;Password cannot be commonly used password&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/02Register.feature:78)
+</pre></div></td>
+<td>21</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for password mismatch", "Validating Register page"</td>
+<td><div><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didn?t match.] but found [null]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:94)
+	at ?.It should display an error message &quot;password_mismatch:The two password fields didn?t match.&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/02Register.feature:46)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1038907896", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1038907896'><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didn?t match.] but found [null]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:94)
+	at ?.It should display an error message &quot;password_mismatch:The two password fields didn?t match.&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/02Register.feature:46)
+</pre></div></td>
+<td>21</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for password with characters less than 8", "Validating Register page"</td>
+<td><div><pre>java.lang.AssertionError: expected [Password should contain at least 8 characters] but found [null]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:94)
+	at ?.It should display an error message &quot;Password should contain at least 8 characters&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/02Register.feature:54)
+</pre></div><a href='#' onClick='toggleBox("stack-trace104615190", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace104615190'><pre>java.lang.AssertionError: expected [Password should contain at least 8 characters] but found [null]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:94)
+	at ?.It should display an error message &quot;Password should contain at least 8 characters&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/02Register.feature:54)
+</pre></div></td>
+<td>21</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid username", "Validating Register page"</td>
+<td><div><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didn?t match.] but found [null]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:94)
+	at ?.It should display an error message &quot;password_mismatch:The two password fields didn?t match.&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/02Register.feature:38)
+</pre></div><a href='#' onClick='toggleBox("stack-trace401872697", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace401872697'><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didn?t match.] but found [null]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:94)
+	at ?.It should display an error message &quot;password_mismatch:The two password fields didn?t match.&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/02Register.feature:38)
+</pre></div></td>
+<td>21</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for password too similar to your other personal information", "Validating Register page"</td>
+<td><div><pre>java.lang.AssertionError: expected [password cannot be too similar to your other personal information.] but found [null]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:94)
+	at ?.It should display an error message &quot;password cannot be too similar to your other personal information.&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/02Register.feature:70)
+</pre></div><a href='#' onClick='toggleBox("stack-trace243076530", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace243076530'><pre>java.lang.AssertionError: expected [password cannot be too similar to your other personal information.] but found [null]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at StepDefinition.Register_StepDefinition.it_should_display_an_error_message(Register_StepDefinition.java:94)
+	at ?.It should display an error message &quot;password cannot be too similar to your other personal information.&quot;(file:///C:/Users/shrav/eclipse-workspace1/com.dsalgoCucumberFramework/src/test/resources/Features/02Register.feature:70)
+</pre></div></td>
+<td>21</td>
+<td>Runner.testRunner@3b35a229</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -389,105 +253,180 @@ public void click_login_button_to_verify() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Queue" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to a page having an tryEditor from Arrays in Python page", "User launch dsalgo application and test Array page"</td>
 <td></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Tree" without sign in", "User launch dsalgo application and test Home page"</td>
-<td></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Tree" on home page without sign in", "User launch dsalgo application and test Home page"</td>
-<td></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Stack" on home page without sign in", "User launch dsalgo application and test Home page"</td>
-<td></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
+<td>2</td>
+<td>Runner.testRunner@3b35a229</td></tr>
 <tr>
 <td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Graph" on home page without sign in", "User launch dsalgo application and test Home page"</td>
 <td></td>
 <td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
+<td>Runner.testRunner@3b35a229</td></tr>
 <tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Arrays" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Queue" on home page without sign in", "User launch dsalgo application and test Home page"</td>
 <td></td>
 <td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
+<td>Runner.testRunner@3b35a229</td></tr>
 <tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on Register", "User launch dsalgo application and test Home page"</td>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user redirected to Homepage with valid details", "Validating Register page"</td>
 <td></td>
 <td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields below Password textbox", "Validating Register page"</td>
-<td></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Datastructures" on home page without sign in", "User launch dsalgo application and test Home page"</td>
-<td></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Stack" without sign in", "User launch dsalgo application and test Home page"</td>
-<td></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on sign in", "User launch dsalgo application and test Home page"</td>
-<td></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields below Username textbox", "Validating Register page"</td>
-<td></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Queue" without sign in", "User launch dsalgo application and test Home page"</td>
-<td></td>
-<td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
+<td>Runner.testRunner@3b35a229</td></tr>
 <tr>
 <td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields below confirm Password textbox", "Validating Register page"</td>
 <td></td>
 <td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
+<td>Runner.testRunner@3b35a229</td></tr>
 <tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Graph" without sign in", "User launch dsalgo application and test Home page"</td>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields below Username textbox", "Validating Register page"</td>
 <td></td>
 <td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
+<td>Runner.testRunner@3b35a229</td></tr>
 <tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Arrays" without sign in", "User launch dsalgo application and test Home page"</td>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs "" and "passowrd"", "Validating Login page"</td>
 <td></td>
 <td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
+<td>Runner.testRunner@3b35a229</td></tr>
 <tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User launch home page of an dsalgo project", "Validating Register page"</td>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying Register link", "Validating Login page"</td>
 <td></td>
 <td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on Register", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid and valid inputs from Excel "Sheet1" and 1", "Validating Login page"</td>
+<td></td>
+<td>1</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Arrays" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Datastructures" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid and valid inputs from Excel "Sheet1" and 0", "Validating Login page"</td>
+<td></td>
+<td>2</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Stack" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid and valid inputs from Excel "Sheet1" and 2", "Validating Login page"</td>
+<td></td>
+<td>1</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying signout link", "Validating Login page"</td>
+<td></td>
+<td>1</td>
+<td>Runner.testRunner@3b35a229</td></tr>
 <tr>
 <td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Linkedlist" on home page without sign in", "User launch dsalgo application and test Home page"</td>
 <td></td>
 <td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs "" and """, "Validating Login page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Graph" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields below Password textbox", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User launch home page of an dsalgo project", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid and valid inputs from Excel "Sheet1" and 3", "Validating Login page"</td>
+<td></td>
+<td>1</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for code with invalid syntax in tryEditor for Arrays in Python page", "User launch dsalgo application and test Array page"</td>
+<td></td>
+<td>1</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "ARRAY" Data Structure Page", "User launch dsalgo application and test Array page"</td>
+<td></td>
+<td>1</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs "user" and """, "Validating Login page"</td>
+<td></td>
+<td>1</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Queue" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Arrays in Python page", "User launch dsalgo application and test Array page"</td>
+<td></td>
+<td>2</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User launch home page of an dsalgo project", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>2</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Arrays" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Stack" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able run code in tryEditor for Arrays in Python page", "User launch dsalgo application and test Array page"</td>
+<td></td>
+<td>2</td>
+<td>Runner.testRunner@3b35a229</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Tree" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@3b35a229</td></tr>
 <tr>
 <td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Linkedlist" without sign in", "User launch dsalgo application and test Home page"</td>
 <td></td>
 <td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
+<td>Runner.testRunner@3b35a229</td></tr>
 <tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User launch home page of an dsalgo project", "User launch dsalgo application and test Home page"</td>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Tree" without sign in", "User launch dsalgo application and test Home page"</td>
 <td></td>
 <td>0</td>
-<td>Runner.testRunner@7bbc8656</td></tr>
+<td>Runner.testRunner@3b35a229</td></tr>
 </table><p>
 </body>
 </html>

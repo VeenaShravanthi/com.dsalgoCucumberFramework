@@ -11,6 +11,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import DriverFactory.BaseClass;
+import Utilities.Loggerload;
 import Utilities.configReader;
 import io.cucumber.datatable.DataTable;
 //import utilities.Loggerload;
@@ -18,6 +19,7 @@ import io.cucumber.datatable.DataTable;
 public class registerPage {
 	
 	public static WebDriver driver=BaseClass.getdriver();
+	
 	String register = configReader.registerPageURL();
 
 	//Locators
@@ -44,7 +46,7 @@ public class registerPage {
 	}
 
 	public void clickOnRegisterButton() {
-		//Loggerload.info("The user clicks on Register button");
+		Loggerload.info("The user clicks on Register button");
 		registerButton.click();
 	}
 
@@ -125,7 +127,7 @@ public class registerPage {
 		try {
 			msg = errorMsg.getText();
 		} catch (NoSuchElementException e) {
-			//Loggerload.info("No such element");
+			Loggerload.info("No such element");
 		}
 		return msg;
 
@@ -147,8 +149,8 @@ public class registerPage {
 		for (Map<String, String> form : userdetail) {
 
 			String userName = form.get("username");
-			//Loggerload.info("The user enter username as : " + userName);
-			user.sendKeys(userName);
+			Loggerload.info("The user enter username as : " + userName);
+				
 		}
 
 	}
@@ -158,7 +160,7 @@ public class registerPage {
 		for (Map<String, String> form : userdetail) {
 
 			String passwd = form.get("password");
-			//Loggerload.info("The user enter password as : " + passwd);
+			Loggerload.info("The user enter password as : " + passwd);
 			pwd.sendKeys(passwd);
 
 		}
@@ -170,7 +172,7 @@ public class registerPage {
 		for (Map<String, String> form : userdetail) {
 
 			String cpasswd = form.get("password confirmation");
-			//Loggerload.info("The user enter confirm password as : " + cpasswd);
+			Loggerload.info("The user enter confirm password as : " + cpasswd);
 			confirmpwd.sendKeys(cpasswd);
 
 		}
