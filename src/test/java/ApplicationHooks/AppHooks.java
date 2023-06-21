@@ -28,14 +28,14 @@ public class AppHooks {
 	@BeforeAll
 	public static void before() throws Throwable {
 		// Get browser Type from config file
-		// Loggerload.info("Loading Config file");
+		 Loggerload.info("Loading Config file");
 		configReader.init_prop();
 		String browser = configReader.getBrowserType();
 
 		// Initialize driver from driver factory
 		driverfactory = new BaseClass();
 		driver = driverfactory.init_driver(browser);
-		// Loggerload.info("Initializing driver for : "+browser);
+		 Loggerload.info("Initializing driver for : "+browser);
 
 	}
 

@@ -37,7 +37,7 @@ public class BaseClass {
 			option.addArguments("--disable-dev-shm-usage");
 			option.addArguments("--ignore-ssl-errors=yes");
 			option.addArguments("--ignore-certificate-errors");
-			WebDriverManager.chromedriver().driverVersion(" 114.0.5735.134 ").setup();
+			WebDriverManager.chromedriver().driverVersion("114.0.5735.90").setup();
 			driver = new ChromeDriver(option);
 		
 		} else if (browser.equals("firefox")) {

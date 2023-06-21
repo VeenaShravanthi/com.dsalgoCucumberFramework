@@ -16,9 +16,9 @@ import io.cucumber.testng.CucumberOptions;
 		) // tags from feature file
 
 public class testRunner extends AbstractTestNGCucumberTests {
-//	@DataProvider(parallel = false)
-//	public Object[][] scenarios() {		
-//		return super.scenarios();
-//	,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},}
+	@DataProvider(parallel = false)
+	public Object[][] scenarios() {		
+		return super.scenarios();
+	}
 
 }
