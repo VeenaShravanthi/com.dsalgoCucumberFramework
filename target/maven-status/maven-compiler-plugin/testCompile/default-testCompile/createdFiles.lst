@@ -1,0 +1,16 @@
+Utilities\Loggerload.class
+PageObjects\loginPage.class
+DriverFactory\abstractComponents.class
+StepDefinition\Login_StepDefinition.class
+PageObjects\registerPage.class
+Utilities\ExcelReader.class
+PageObjects\ArraysPage.class
+Utilities\configReader.class
+Runner\testRunner.class
+PageObjects\homePage.class
+StepDefinition\Register_StepDefinition.class
+StepDefinition\Resuable_StepDefinition.class
+ApplicationHooks\AppHooks.class
+DriverFactory\BaseClass.class
+StepDefinition\Arrays_StepDefinition.class
+StepDefinition\Home_StepDefinition.class

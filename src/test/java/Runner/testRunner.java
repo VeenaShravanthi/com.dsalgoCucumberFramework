@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
          monochrome = false, // console output
 			
 		features = { "src/test/resources/Features" }, // location of feature files
-		tags=" ",// tags from feature file,
+		tags="",// tags from feature file,
 		glue = { "StepDefinition", "ApplicationHooks" }// location of step definition files
 		
 		) // tags from feature file
