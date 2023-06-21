@@ -33,8 +33,11 @@ public class BaseClass {
 		if (browser.equals("chrome")) {
 			ChromeOptions option = new ChromeOptions();
 			option.addArguments("--remote-allow-origins=*");
-
-			WebDriverManager.chromedriver().setup();
+			
+			option.addArguments("--disable-dev-shm-usage");
+			option.addArguments("--ignore-ssl-errors=yes");
+			option.addArguments("--ignore-certificate-errors");
+			WebDriverManager.chromedriver().driverVersion(" 114.0.5735.134 ").setup();
 			driver = new ChromeDriver(option);
 		
 		} else if (browser.equals("firefox")) {
