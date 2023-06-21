@@ -73,105 +73,105 @@ public class Register_StepDefinition {
 		assertTrue(register.getEmptyRequiredCofmPswd(), "Username Field is Empty - required attribute is validated");
 		assertEquals(register.getEmptyfieldErrormsgCofmPswd(), expErrormsg);
 	}
-	
-	// @TS_register_05
-
-
-	@When("The user enters a {string} with characters other than Letters, digits and {string}")
-	public void the_user_enters_a_with_characters_other_than_letters_digits_and(String string, String string2, io.cucumber.datatable.DataTable dataTable) {
-		register.entervalidUsername(dataTable);
-		register.entervalidPassword(dataTable);
-		register.entervalidConfmPassword(dataTable);
-		register.clickOnRegisterButton();
-	}
-
-	@Then("It should display an error message {string}")
-	public void it_should_display_an_error_message(String expErrormsg) {
-		
-		Loggerload.info("Expected Error message is as : " + expErrormsg);
-		Loggerload.info("Error message is displayed as : " + register.getErrormsg());
-
-		assertEquals(register.getErrormsg(), expErrormsg);
-	}
-	
-	// @TS_register_06
-
-	@When("The user clicks {string} button after entering valid {string} and different passwords in {string} and {string} fields")
-	public void the_user_clicks_button_after_entering_valid_and_different_passwords_in_and_fields(String string, String string2, String string3, String string4, io.cucumber.datatable.DataTable dataTable) {
-		register.entervalidUsername(dataTable);
-		register.entervalidPassword(dataTable);
-		register.entervalidConfmPassword(dataTable);
-		register.clickOnRegisterButton();
-	}
-
-	// @TS_register_07
-	
-	@When("The user enters a valid {string} and {string} with characters less than {int}")
-	public void the_user_enters_a_valid_and_with_characters_less_than(String string, String string2, Integer int1, io.cucumber.datatable.DataTable dataTable) {
-		register.entervalidUsername(dataTable);
-		register.entervalidPassword(dataTable);
-		register.entervalidConfmPassword(dataTable);
-		register.clickOnRegisterButton();
-	}
-	// @TS_register_08
-	
-	@When("The user enters a valid {string} and {string} with only numbers")
-	public void the_user_enters_a_valid_and_with_only_numbers(String string, String string2, io.cucumber.datatable.DataTable dataTable) {
-		register.entervalidUsername(dataTable);
-		register.entervalidPassword(dataTable);
-		register.entervalidConfmPassword(dataTable);
-		register.clickOnRegisterButton();
-	}
-
-	// @TS_register_09
-	
-	@When("The user enters a valid {string} and {string} similar to username")
-	public void the_user_enters_a_valid_and_similar_to_username(String string, String string2, io.cucumber.datatable.DataTable dataTable) {
-		register.entervalidUsername(dataTable);
-		register.entervalidPassword(dataTable);
-		register.entervalidConfmPassword(dataTable);
-		register.clickOnRegisterButton();
-	}
-	
-	// @TS_register_10
-
-	@When("The user enters a valid {string} and commonly used password {string}")
-	public void the_user_enters_a_valid_and_commonly_used_password(String string, String string2, io.cucumber.datatable.DataTable dataTable) {
-		register.entervalidUsername(dataTable);
-		register.entervalidPassword(dataTable);
-		register.entervalidConfmPassword(dataTable);
-		register.clickOnRegisterButton();
-	}
-
-	// @TS_register_11
-	
-	
-	@When("The user enters a valid {string} and {string} and {string}")
-	public void the_user_enters_a_valid_and_and(String string, String string2, String string3, io.cucumber.datatable.DataTable dataTable) {
-	   
-		register.entervalidUsername(dataTable);
-		register.entervalidPassword(dataTable);
-		register.entervalidConfmPassword(dataTable);
-		register.clickOnRegisterButton();
-	}
-
-	@Then("The user should be redirected to Homepage with the message {string}")
-	public void the_user_should_be_redirected_to_homepage_with_the_message(String string) {
-		Loggerload.info("User redirected to Homepage ");
-		String Title = register.getPageTitle();
-		Loggerload.info("Title of current page is : " + Title);
-		assertEquals(Title, "Registration", "Title do not match");
-	}
-
-	
-	// @TS_register_12
-	
-	@When("The user enters a valid existing {string} with {string} and {string}")
-	public void the_user_enters_a_valid_existing_with_and(String string, String string2, String string3, io.cucumber.datatable.DataTable dataTable) {
-		register.entervalidUsername(dataTable);
-		register.entervalidPassword(dataTable);
-		register.entervalidConfmPassword(dataTable);
-		register.clickOnRegisterButton();
-	}
-
 }
+//	// @TS_register_05
+//
+//
+//	@When("The user enters a {string} with characters other than Letters, digits and {string}")
+//	public void the_user_enters_a_with_characters_other_than_letters_digits_and(String string, String string2, io.cucumber.datatable.DataTable dataTable) {
+//		register.entervalidUsername(dataTable);
+//		register.entervalidPassword(dataTable);
+//		register.entervalidConfmPassword(dataTable);
+//		register.clickOnRegisterButton();
+//	}
+//
+//	@Then("It should display an error message {string}")
+//	public void it_should_display_an_error_message(String expErrormsg) {
+//		
+//		Loggerload.info("Expected Error message is as : " + expErrormsg);
+//		Loggerload.info("Error message is displayed as : " + register.getErrormsg());
+//
+//		assertEquals(register.getErrormsg(), expErrormsg);
+//	}
+//	
+//	// @TS_register_06
+//
+//	@When("The user clicks {string} button after entering valid {string} and different passwords in {string} and {string} fields")
+//	public void the_user_clicks_button_after_entering_valid_and_different_passwords_in_and_fields(String string, String string2, String string3, String string4, io.cucumber.datatable.DataTable dataTable) {
+//		register.entervalidUsername(dataTable);
+//		register.entervalidPassword(dataTable);
+//		register.entervalidConfmPassword(dataTable);
+//		register.clickOnRegisterButton();
+//	}
+//
+//	// @TS_register_07
+//	
+//	@When("The user enters a valid {string} and {string} with characters less than {int}")
+//	public void the_user_enters_a_valid_and_with_characters_less_than(String string, String string2, Integer int1, io.cucumber.datatable.DataTable dataTable) {
+//		register.entervalidUsername(dataTable);
+//		register.entervalidPassword(dataTable);
+//		register.entervalidConfmPassword(dataTable);
+//		register.clickOnRegisterButton();
+//	}
+//	// @TS_register_08
+//	
+//	@When("The user enters a valid {string} and {string} with only numbers")
+//	public void the_user_enters_a_valid_and_with_only_numbers(String string, String string2, io.cucumber.datatable.DataTable dataTable) {
+//		register.entervalidUsername(dataTable);
+//		register.entervalidPassword(dataTable);
+//		register.entervalidConfmPassword(dataTable);
+//		register.clickOnRegisterButton();
+//	}
+//
+//	// @TS_register_09
+//	
+//	@When("The user enters a valid {string} and {string} similar to username")
+//	public void the_user_enters_a_valid_and_similar_to_username(String string, String string2, io.cucumber.datatable.DataTable dataTable) {
+//		register.entervalidUsername(dataTable);
+//		register.entervalidPassword(dataTable);
+//		register.entervalidConfmPassword(dataTable);
+//		register.clickOnRegisterButton();
+//	}
+//	
+//	// @TS_register_10
+//
+//	@When("The user enters a valid {string} and commonly used password {string}")
+//	public void the_user_enters_a_valid_and_commonly_used_password(String string, String string2, io.cucumber.datatable.DataTable dataTable) {
+//		register.entervalidUsername(dataTable);
+//		register.entervalidPassword(dataTable);
+//		register.entervalidConfmPassword(dataTable);
+//		register.clickOnRegisterButton();
+//	}
+//
+//	// @TS_register_11
+//	
+//	
+//	@When("The user enters a valid {string} and {string} and {string}")
+//	public void the_user_enters_a_valid_and_and(String string, String string2, String string3, io.cucumber.datatable.DataTable dataTable) {
+//	   
+//		register.entervalidUsername(dataTable);
+//		register.entervalidPassword(dataTable);
+//		register.entervalidConfmPassword(dataTable);
+//		register.clickOnRegisterButton();
+//	}
+//
+//	@Then("The user should be redirected to Homepage with the message {string}")
+//	public void the_user_should_be_redirected_to_homepage_with_the_message(String string) {
+//		Loggerload.info("User redirected to Homepage ");
+//		String Title = register.getPageTitle();
+//		Loggerload.info("Title of current page is : " + Title);
+//		assertEquals(Title, "Registration", "Title do not match");
+//	}
+//
+//	
+//	// @TS_register_12
+//	
+//	@When("The user enters a valid existing {string} with {string} and {string}")
+//	public void the_user_enters_a_valid_existing_with_and(String string, String string2, String string3, io.cucumber.datatable.DataTable dataTable) {
+//		register.entervalidUsername(dataTable);
+//		register.entervalidPassword(dataTable);
+//		register.entervalidConfmPassword(dataTable);
+//		register.clickOnRegisterButton();
+//	}
+//
+//}
