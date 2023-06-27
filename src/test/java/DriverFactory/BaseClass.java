@@ -34,10 +34,10 @@ public class BaseClass {
 			ChromeOptions option = new ChromeOptions();
 			option.addArguments("--remote-allow-origins=*");
 			
-			option.addArguments("--disable-dev-shm-usage");
-			option.addArguments("--ignore-ssl-errors=yes");
-			option.addArguments("--ignore-certificate-errors");
-			WebDriverManager.chromedriver().driverVersion("112.0.5615.49").setup();//112.0.5615.49
+//			option.addArguments("--disable-dev-shm-usage");
+//			option.addArguments("--ignore-ssl-errors=yes");
+//			option.addArguments("--ignore-certificate-errors");
+			WebDriverManager.chromedriver().driverVersion("114.0.0").setup();//112.0.5615.49
 			driver = new ChromeDriver(option);
 		
 		} else if (browser.equals("firefox")) {
