@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,11 +21,12 @@
      -->
   </head>
 
-  <body>    <div class="top-banner-root">
+  <body>
+    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 12 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\shrav\AppData\Local\Temp\testng-eclipse--238329594\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\shrav\eclipse-workspace1\com.dsalgoCucumberFramework\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
                     <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,170 +93,186 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">29 methods, 12 failed,   17 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for existing username&quot;, &quot;Validating Register page&quot;)">runScenario("The user is presented with error message for existing username", "Validating Register page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for password with only numbers&quot;, &quot;Validating Register page...)">runScenario("The user is presented with error message for password with only numbers", "Validating Register page...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user redirected to Homepage with valid details&quot;, &quot;Validating Register page&quot;)">runScenario("The user redirected to Homepage with valid details", "Validating Register page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for password too similar to your other personal informatio...)">runScenario("The user is presented with error message for password too similar to your other personal informatio...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for empty fields below Password textbox&quot;, &quot;Validating Regi...)">runScenario("The user is presented with error message for empty fields below Password textbox", "Validating Regi...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for empty fields below Username textbox&quot;, &quot;Validating Regi...)">runScenario("The user is presented with error message for empty fields below Username textbox", "Validating Regi...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for password with characters less than 8&quot;, &quot;Validating Reg...)">runScenario("The user is presented with error message for password with characters less than 8", "Validating Reg...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for invalid username&quot;, &quot;Validating Register page&quot;)">runScenario("The user is presented with error message for invalid username", "Validating Register page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for commonly used password&quot;, &quot;Validating Register page&quot;)">runScenario("The user is presented with error message for commonly used password", "Validating Register page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for empty fields below confirm Password textbox&quot;, &quot;Validat...)">runScenario("The user is presented with error message for empty fields below confirm Password textbox", "Validat...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for password mismatch&quot;, &quot;Validating Register page&quot;)">runScenario("The user is presented with error message for password mismatch", "Validating Register page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User on signin page and login with valid credentials&quot;, &quot;Validating Register page&quot;)">runScenario("User on signin page and login with valid credentials", "Validating Register page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    <span class="method-stats">34 methods,   34 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click getstarted link &quot;Arrays&quot; on home page without sign in&quot;, &quot;User launch...)">runScenario("User is on Home page and click getstarted link "Arrays" on home page without sign in", "User launch...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid inputs &quot;user&quot; and &quot;&quot;&quot;, &quot;Validating Login page&quot;)">runScenario("User on login page and login with invalid inputs "user" and """, "Validating Login page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown &quot;Queue&quot; without sign in&quot;, &quot;User launch dsalgo applicatio...)">runScenario("User is on Home page and click on dropdown "Queue" without sign in", "User launch dsalgo applicatio...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to navigate to &quot;ARRAY&quot; Data Structure Page&quot;, &quot;User launch dsalgo application and t...)">runScenario("The user is able to navigate to "ARRAY" Data Structure Page", "User launch dsalgo application and t...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click getstarted link &quot;Datastructures&quot; on home page without sign in&quot;, &quot;Use...)">runScenario("User is on Home page and click getstarted link "Datastructures" on home page without sign in", "Use...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on Register&quot;, &quot;User launch dsalgo application and test Home page&quot;)">runScenario("User is on Home page and click on Register", "User launch dsalgo application and test Home page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown &quot;Linkedlist&quot; without sign in&quot;, &quot;User launch dsalgo appli...)">runScenario("User is on Home page and click on dropdown "Linkedlist" without sign in", "User launch dsalgo appli...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User launch home page of an dsalgo project&quot;, &quot;Validating Register page&quot;)">runScenario("User launch home page of an dsalgo project", "Validating Register page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click getstarted link &quot;Stack&quot; on home page without sign in&quot;, &quot;User launch ...)">runScenario("User is on Home page and click getstarted link "Stack" on home page without sign in", "User launch ...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown &quot;Queue&quot; without sign in&quot;, &quot;User launch dsalgo applicatio...)">runScenario("User is on Home page and click on dropdown "Queue" without sign in", "User launch dsalgo applicatio...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown &quot;Arrays&quot; without sign in&quot;, &quot;User launch dsalgo applicati...)">runScenario("User is on Home page and click on dropdown "Arrays" without sign in", "User launch dsalgo applicati...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for empty fields below Username textbox&quot;, &quot;Validating Regi...)">runScenario("The user is presented with error message for empty fields below Username textbox", "Validating Regi...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click getstarted link &quot;Graph&quot; on home page without sign in&quot;, &quot;User launch ...)">runScenario("User is on Home page and click getstarted link "Graph" on home page without sign in", "User launch ...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verifying Register link&quot;, &quot;Validating Login page&quot;)">runScenario("Verifying Register link", "Validating Login page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User launch home page of an dsalgo project&quot;, &quot;User launch dsalgo application and test Home page&quot;)">runScenario("User launch home page of an dsalgo project", "User launch dsalgo application and test Home page")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to navigate to a page having an tryEditor from Arrays in Python page&quot;, &quot;User launc...)">runScenario("The user is able to navigate to a page having an tryEditor from Arrays in Python page", "User launc...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown &quot;Stack&quot; without sign in&quot;, &quot;User launch dsalgo applicatio...)">runScenario("User is on Home page and click on dropdown "Stack" without sign in", "User launch dsalgo applicatio...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able run code in tryEditor for Arrays in Python page&quot;, &quot;User launch dsalgo application ...)">runScenario("The user is able run code in tryEditor for Arrays in Python page", "User launch dsalgo application ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on sign in&quot;, &quot;User launch dsalgo application and test Home page&quot;)">runScenario("User is on Home page and click on sign in", "User launch dsalgo application and test Home page")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verifying signout link&quot;, &quot;Validating Login page&quot;)">runScenario("Verifying signout link", "Validating Login page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown &quot;Graph&quot; without sign in&quot;, &quot;User launch dsalgo applicatio...)">runScenario("User is on Home page and click on dropdown "Graph" without sign in", "User launch dsalgo applicatio...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click getstarted link &quot;Linkedlist&quot; on home page without sign in&quot;, &quot;User la...)">runScenario("User is on Home page and click getstarted link "Linkedlist" on home page without sign in", "User la...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User launch home page of an dsalgo project&quot;, &quot;Validating Register page&quot;)">runScenario("User launch home page of an dsalgo project", "Validating Register page")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid and valid inputs from Excel &quot;Sheet1&quot; and 0&quot;, &quot;Validating ...)">runScenario("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 0", "Validating ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click getstarted link &quot;Linkedlist&quot; on home page without sign in&quot;, &quot;User la...)">runScenario("User is on Home page and click getstarted link "Linkedlist" on home page without sign in", "User la...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click getstarted link &quot;Tree&quot; on home page without sign in&quot;, &quot;User launch d...)">runScenario("User is on Home page and click getstarted link "Tree" on home page without sign in", "User launch d...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click getstarted link &quot;Queue&quot; on home page without sign in&quot;, &quot;User launch ...)">runScenario("User is on Home page and click getstarted link "Queue" on home page without sign in", "User launch ...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on sign in&quot;, &quot;User launch dsalgo application and test Home page&quot;)">runScenario("User is on Home page and click on sign in", "User launch dsalgo application and test Home page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown &quot;Tree&quot; without sign in&quot;, &quot;User launch dsalgo application...)">runScenario("User is on Home page and click on dropdown "Tree" without sign in", "User launch dsalgo application...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown &quot;Tree&quot; without sign in&quot;, &quot;User launch dsalgo application...)">runScenario("User is on Home page and click on dropdown "Tree" without sign in", "User launch dsalgo application...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click getstarted link &quot;Tree&quot; on home page without sign in&quot;, &quot;User launch d...)">runScenario("User is on Home page and click getstarted link "Tree" on home page without sign in", "User launch d...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown &quot;Graph&quot; without sign in&quot;, &quot;User launch dsalgo applicatio...)">runScenario("User is on Home page and click on dropdown "Graph" without sign in", "User launch dsalgo applicatio...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on Register&quot;, &quot;User launch dsalgo application and test Home page&quot;)">runScenario("User is on Home page and click on Register", "User launch dsalgo application and test Home page")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click getstarted link &quot;Graph&quot; on home page without sign in&quot;, &quot;User launch ...)">runScenario("User is on Home page and click getstarted link "Graph" on home page without sign in", "User launch ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for empty fields below Password textbox&quot;, &quot;Validating Regi...)">runScenario("The user is presented with error message for empty fields below Password textbox", "Validating Regi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid inputs &quot;&quot; and &quot;&quot;&quot;, &quot;Validating Login page&quot;)">runScenario("User on login page and login with invalid inputs "" and """, "Validating Login page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click getstarted link &quot;Datastructures&quot; on home page without sign in&quot;, &quot;Use...)">runScenario("User is on Home page and click getstarted link "Datastructures" on home page without sign in", "Use...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for empty fields below confirm Password textbox&quot;, &quot;Validat...)">runScenario("The user is presented with error message for empty fields below confirm Password textbox", "Validat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for code with invalid syntax in tryEditor for Arrays in Py...)">runScenario("The user is presented with error message for code with invalid syntax in tryEditor for Arrays in Py...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown &quot;Arrays&quot; without sign in&quot;, &quot;User launch dsalgo applicati...)">runScenario("User is on Home page and click on dropdown "Arrays" without sign in", "User launch dsalgo applicati...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click getstarted link &quot;Queue&quot; on home page without sign in&quot;, &quot;User launch ...)">runScenario("User is on Home page and click getstarted link "Queue" on home page without sign in", "User launch ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid inputs &quot;&quot; and &quot;passowrd&quot;&quot;, &quot;Validating Login page&quot;)">runScenario("User on login page and login with invalid inputs "" and "passowrd"", "Validating Login page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click getstarted link &quot;Stack&quot; on home page without sign in&quot;, &quot;User launch ...)">runScenario("User is on Home page and click getstarted link "Stack" on home page without sign in", "User launch ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid and valid inputs from Excel &quot;Sheet1&quot; and 3&quot;, &quot;Validating ...)">runScenario("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 3", "Validating ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid and valid inputs from Excel &quot;Sheet1&quot; and 2&quot;, &quot;Validating ...)">runScenario("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 2", "Validating ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown &quot;Stack&quot; without sign in&quot;, &quot;User launch dsalgo applicatio...)">runScenario("User is on Home page and click on dropdown "Stack" without sign in", "User launch dsalgo applicatio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to navigate to Arrays in Python page&quot;, &quot;User launch dsalgo application and test Ar...)">runScenario("The user is able to navigate to Arrays in Python page", "User launch dsalgo application and test Ar...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User launch home page of an dsalgo project&quot;, &quot;User launch dsalgo application and test Home page&quot;)">runScenario("User launch home page of an dsalgo project", "User launch dsalgo application and test Home page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid and valid inputs from Excel &quot;Sheet1&quot; and 1&quot;, &quot;Validating ...)">runScenario("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 1", "Validating ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown &quot;Linkedlist&quot; without sign in&quot;, &quot;User launch dsalgo appli...)">runScenario("User is on Home page and click on dropdown "Linkedlist" without sign in", "User launch dsalgo appli...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click getstarted link &quot;Arrays&quot; on home page without sign in&quot;, &quot;User launch...)">runScenario("User is on Home page and click getstarted link "Arrays" on home page without sign in", "User launch...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -266,868 +283,8 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Runner.testRunner</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is presented with error message for existing username&quot;, &quot;Validating Register page&quot;)">
-                  </a> <!-- runScenario("The user is presented with error message for existing username", "Validating Register page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is presented with error message for existing username","Validating Register page")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user opens Register Page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user opens Register Page&quot;)
-public void the_user_opens_register_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enters a valid existing {string} with {string} and {string}&quot;)
-public void the_user_enters_a_valid_existing_with_and(String string, String string2, String string3, io.cucumber.datatable.DataTable dataTable) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
-    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
-    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-    //
-    // For other transformations you can register a DataTableType.
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;It should display an error message {string}&quot;)
-public void it_should_display_an_error_message(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is presented with error message for password with only numbers&quot;, &quot;Validating Register page...)">
-                  </a> <!-- runScenario("The user is presented with error message for password with only numbers", "Validating Register page...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is presented with error message for password with only numbers","Validating Register page")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user opens Register Page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user opens Register Page&quot;)
-public void the_user_opens_register_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enters a valid {string} and {string} with only numbers&quot;)
-public void the_user_enters_a_valid_and_with_only_numbers(String string, String string2, io.cucumber.datatable.DataTable dataTable) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
-    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
-    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-    //
-    // For other transformations you can register a DataTableType.
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;It should display an error message {string}&quot;)
-public void it_should_display_an_error_message(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user redirected to Homepage with valid details&quot;, &quot;Validating Register page&quot;)">
-                  </a> <!-- runScenario("The user redirected to Homepage with valid details", "Validating Register page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user redirected to Homepage with valid details","Validating Register page")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user opens Register Page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user opens Register Page&quot;)
-public void the_user_opens_register_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enters a valid {string} and {string} and {string}&quot;)
-public void the_user_enters_a_valid_and_and(String string, String string2, String string3, io.cucumber.datatable.DataTable dataTable) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
-    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
-    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-    //
-    // For other transformations you can register a DataTableType.
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;The user should be redirected to Homepage with the message {string}&quot;)
-public void the_user_should_be_redirected_to_homepage_with_the_message(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is presented with error message for password too similar to your other personal informatio...)">
-                  </a> <!-- runScenario("The user is presented with error message for password too similar to your other personal informatio...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is presented with error message for password too similar to your other personal information","Validating Register page")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user opens Register Page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user opens Register Page&quot;)
-public void the_user_opens_register_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enters a valid {string} and {string} similar to username&quot;)
-public void the_user_enters_a_valid_and_similar_to_username(String string, String string2, io.cucumber.datatable.DataTable dataTable) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
-    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
-    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-    //
-    // For other transformations you can register a DataTableType.
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;It should display an error message {string}&quot;)
-public void it_should_display_an_error_message(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is presented with error message for empty fields below Password textbox&quot;, &quot;Validating Regi...)">
-                  </a> <!-- runScenario("The user is presented with error message for empty fields below Password textbox", "Validating Regi...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is presented with error message for empty fields below Password textbox","Validating Register page")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user opens Register Page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user opens Register Page&quot;)
-public void the_user_opens_register_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user clicks {string} button after entering username with other fields empty&quot;)
-public void the_user_clicks_button_after_entering_username_with_other_fields_empty(String string, io.cucumber.datatable.DataTable dataTable) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
-    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
-    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-    //
-    // For other transformations you can register a DataTableType.
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;It should display an error message {string} below Password textbox&quot;)
-public void it_should_display_an_error_message_below_password_textbox(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is presented with error message for empty fields below Username textbox&quot;, &quot;Validating Regi...)">
-                  </a> <!-- runScenario("The user is presented with error message for empty fields below Username textbox", "Validating Regi...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is presented with error message for empty fields below Username textbox","Validating Register page")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user opens Register Page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user opens Register Page&quot;)
-public void the_user_opens_register_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user clicks {string} button with all fields empty&quot;)
-public void the_user_clicks_button_with_all_fields_empty(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;It should display an error message {string} below Username textbox&quot;)
-public void it_should_display_an_error_message_below_username_textbox(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is presented with error message for password with characters less than 8&quot;, &quot;Validating Reg...)">
-                  </a> <!-- runScenario("The user is presented with error message for password with characters less than 8", "Validating Reg...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is presented with error message for password with characters less than 8","Validating Register page")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user opens Register Page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user opens Register Page&quot;)
-public void the_user_opens_register_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enters a valid {string} and {string} with characters less than {int}&quot;)
-public void the_user_enters_a_valid_and_with_characters_less_than(String string, String string2, Integer int1, io.cucumber.datatable.DataTable dataTable) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
-    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
-    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-    //
-    // For other transformations you can register a DataTableType.
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;It should display an error message {string}&quot;)
-public void it_should_display_an_error_message(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is presented with error message for invalid username&quot;, &quot;Validating Register page&quot;)">
-                  </a> <!-- runScenario("The user is presented with error message for invalid username", "Validating Register page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is presented with error message for invalid username","Validating Register page")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user opens Register Page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user opens Register Page&quot;)
-public void the_user_opens_register_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enters a {string} with characters other than Letters, digits and {string}&quot;)
-public void the_user_enters_a_with_characters_other_than_letters_digits_and(String string, String string2, io.cucumber.datatable.DataTable dataTable) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
-    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
-    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-    //
-    // For other transformations you can register a DataTableType.
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;It should display an error message {string}&quot;)
-public void it_should_display_an_error_message(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is presented with error message for commonly used password&quot;, &quot;Validating Register page&quot;)">
-                  </a> <!-- runScenario("The user is presented with error message for commonly used password", "Validating Register page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is presented with error message for commonly used password","Validating Register page")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user opens Register Page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user opens Register Page&quot;)
-public void the_user_opens_register_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enters a valid {string} and commonly used password {string}&quot;)
-public void the_user_enters_a_valid_and_commonly_used_password(String string, String string2, io.cucumber.datatable.DataTable dataTable) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
-    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
-    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-    //
-    // For other transformations you can register a DataTableType.
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;It should display an error message {string}&quot;)
-public void it_should_display_an_error_message(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is presented with error message for empty fields below confirm Password textbox&quot;, &quot;Validat...)">
-                  </a> <!-- runScenario("The user is presented with error message for empty fields below confirm Password textbox", "Validat...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is presented with error message for empty fields below confirm Password textbox","Validating Register page")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user opens Register Page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user opens Register Page&quot;)
-public void the_user_opens_register_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user clicks {string} button after entering {string} and {string} with Password Confirmation field empty&quot;)
-public void the_user_clicks_button_after_entering_and_with_password_confirmation_field_empty(String string, String string2, String string3, io.cucumber.datatable.DataTable dataTable) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
-    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
-    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-    //
-    // For other transformations you can register a DataTableType.
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;It should display an error message {string} below Password Confirmation textbox&quot;)
-public void it_should_display_an_error_message_below_password_confirmation_textbox(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is presented with error message for password mismatch&quot;, &quot;Validating Register page&quot;)">
-                  </a> <!-- runScenario("The user is presented with error message for password mismatch", "Validating Register page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is presented with error message for password mismatch","Validating Register page")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user opens Register Page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user opens Register Page&quot;)
-public void the_user_opens_register_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user clicks {string} button after entering valid {string} and different passwords in {string} and {string} fields&quot;)
-public void the_user_clicks_button_after_entering_valid_and_different_passwords_in_and_fields(String string, String string2, String string3, String string4, io.cucumber.datatable.DataTable dataTable) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
-    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
-    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-    //
-    // For other transformations you can register a DataTableType.
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;It should display an error message {string}&quot;)
-public void it_should_display_an_error_message(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User on signin page and login with valid credentials&quot;, &quot;Validating Register page&quot;)">
-                  </a> <!-- runScenario("User on signin page and login with valid credentials", "Validating Register page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User on signin page and login with valid credentials","Validating Register page")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user is on signin page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user is on signin page&quot;)
-public void the_user_is_on_signin_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enter valid {string} and {string}&quot;)
-public void the_user_enter_valid_and(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;click login button to verify&quot;)
-public void click_login_button_to_verify() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">Runner.testRunner</span>
@@ -1135,160 +292,20 @@ public void click_login_button_to_verify() {
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click getstarted link &quot;Arrays&quot; on home page without sign in&quot;, &quot;User launch...)">
-                  </a> <!-- runScenario("User is on Home page and click getstarted link "Arrays" on home page without sign in", "User launch...) -->
+                  <a name="runScenario(&quot;User on login page and login with invalid inputs &quot;user&quot; and &quot;&quot;&quot;, &quot;Validating Login page&quot;)">
+                  </a> <!-- runScenario("User on login page and login with invalid inputs "user" and """, "Validating Login page") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click getstarted link "Arrays" on home page without sign in","User launch dsalgo application and test Home page")</span>
+                  <span class="parameters">("User on login page and login with invalid inputs "user" and """, "Validating Login page")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click on dropdown &quot;Queue&quot; without sign in&quot;, &quot;User launch dsalgo applicatio...)">
-                  </a> <!-- runScenario("User is on Home page and click on dropdown "Queue" without sign in", "User launch dsalgo applicatio...) -->
+                  <a name="runScenario(&quot;The user is able to navigate to &quot;ARRAY&quot; Data Structure Page&quot;, &quot;User launch dsalgo application and t...)">
+                  </a> <!-- runScenario("The user is able to navigate to "ARRAY" Data Structure Page", "User launch dsalgo application and t...) -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click on dropdown "Queue" without sign in","User launch dsalgo application and test Home page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click getstarted link &quot;Datastructures&quot; on home page without sign in&quot;, &quot;Use...)">
-                  </a> <!-- runScenario("User is on Home page and click getstarted link "Datastructures" on home page without sign in", "Use...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click getstarted link "Datastructures" on home page without sign in","User launch dsalgo application and test Home page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click on dropdown &quot;Linkedlist&quot; without sign in&quot;, &quot;User launch dsalgo appli...)">
-                  </a> <!-- runScenario("User is on Home page and click on dropdown "Linkedlist" without sign in", "User launch dsalgo appli...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click on dropdown "Linkedlist" without sign in","User launch dsalgo application and test Home page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click getstarted link &quot;Stack&quot; on home page without sign in&quot;, &quot;User launch ...)">
-                  </a> <!-- runScenario("User is on Home page and click getstarted link "Stack" on home page without sign in", "User launch ...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click getstarted link "Stack" on home page without sign in","User launch dsalgo application and test Home page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click on dropdown &quot;Arrays&quot; without sign in&quot;, &quot;User launch dsalgo applicati...)">
-                  </a> <!-- runScenario("User is on Home page and click on dropdown "Arrays" without sign in", "User launch dsalgo applicati...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click on dropdown "Arrays" without sign in","User launch dsalgo application and test Home page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click getstarted link &quot;Graph&quot; on home page without sign in&quot;, &quot;User launch ...)">
-                  </a> <!-- runScenario("User is on Home page and click getstarted link "Graph" on home page without sign in", "User launch ...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click getstarted link "Graph" on home page without sign in","User launch dsalgo application and test Home page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User launch home page of an dsalgo project&quot;, &quot;User launch dsalgo application and test Home page&quot;)">
-                  </a> <!-- runScenario("User launch home page of an dsalgo project", "User launch dsalgo application and test Home page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User launch home page of an dsalgo project","User launch dsalgo application and test Home page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click on dropdown &quot;Stack&quot; without sign in&quot;, &quot;User launch dsalgo applicatio...)">
-                  </a> <!-- runScenario("User is on Home page and click on dropdown "Stack" without sign in", "User launch dsalgo applicatio...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click on dropdown "Stack" without sign in","User launch dsalgo application and test Home page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click on sign in&quot;, &quot;User launch dsalgo application and test Home page&quot;)">
-                  </a> <!-- runScenario("User is on Home page and click on sign in", "User launch dsalgo application and test Home page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click on sign in","User launch dsalgo application and test Home page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click on dropdown &quot;Graph&quot; without sign in&quot;, &quot;User launch dsalgo applicatio...)">
-                  </a> <!-- runScenario("User is on Home page and click on dropdown "Graph" without sign in", "User launch dsalgo applicatio...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click on dropdown "Graph" without sign in","User launch dsalgo application and test Home page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User launch home page of an dsalgo project&quot;, &quot;Validating Register page&quot;)">
-                  </a> <!-- runScenario("User launch home page of an dsalgo project", "Validating Register page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User launch home page of an dsalgo project","Validating Register page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click getstarted link &quot;Linkedlist&quot; on home page without sign in&quot;, &quot;User la...)">
-                  </a> <!-- runScenario("User is on Home page and click getstarted link "Linkedlist" on home page without sign in", "User la...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click getstarted link "Linkedlist" on home page without sign in","User launch dsalgo application and test Home page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click getstarted link &quot;Queue&quot; on home page without sign in&quot;, &quot;User launch ...)">
-                  </a> <!-- runScenario("User is on Home page and click getstarted link "Queue" on home page without sign in", "User launch ...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click getstarted link "Queue" on home page without sign in","User launch dsalgo application and test Home page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click on dropdown &quot;Tree&quot; without sign in&quot;, &quot;User launch dsalgo application...)">
-                  </a> <!-- runScenario("User is on Home page and click on dropdown "Tree" without sign in", "User launch dsalgo application...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click on dropdown "Tree" without sign in","User launch dsalgo application and test Home page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click getstarted link &quot;Tree&quot; on home page without sign in&quot;, &quot;User launch d...)">
-                  </a> <!-- runScenario("User is on Home page and click getstarted link "Tree" on home page without sign in", "User launch d...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click getstarted link "Tree" on home page without sign in","User launch dsalgo application and test Home page")</span>
+                  <span class="parameters">("The user is able to navigate to "ARRAY" Data Structure Page", "User launch dsalgo application and test Array page")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -1298,47 +315,362 @@ public void click_login_button_to_verify() {
                   <a name="runScenario(&quot;User is on Home page and click on Register&quot;, &quot;User launch dsalgo application and test Home page&quot;)">
                   </a> <!-- runScenario("User is on Home page and click on Register", "User launch dsalgo application and test Home page") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click on Register","User launch dsalgo application and test Home page")</span>
+                  <span class="parameters">("User is on Home page and click on Register", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User launch home page of an dsalgo project&quot;, &quot;Validating Register page&quot;)">
+                  </a> <!-- runScenario("User launch home page of an dsalgo project", "Validating Register page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User launch home page of an dsalgo project", "Validating Register page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click on dropdown &quot;Queue&quot; without sign in&quot;, &quot;User launch dsalgo applicatio...)">
+                  </a> <!-- runScenario("User is on Home page and click on dropdown "Queue" without sign in", "User launch dsalgo applicatio...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click on dropdown "Queue" without sign in", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is presented with error message for empty fields below Username textbox&quot;, &quot;Validating Regi...)">
+                  </a> <!-- runScenario("The user is presented with error message for empty fields below Username textbox", "Validating Regi...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is presented with error message for empty fields below Username textbox", "Validating Register page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verifying Register link&quot;, &quot;Validating Login page&quot;)">
+                  </a> <!-- runScenario("Verifying Register link", "Validating Login page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verifying Register link", "Validating Login page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is able to navigate to a page having an tryEditor from Arrays in Python page&quot;, &quot;User launc...)">
+                  </a> <!-- runScenario("The user is able to navigate to a page having an tryEditor from Arrays in Python page", "User launc...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is able to navigate to a page having an tryEditor from Arrays in Python page", "User launch dsalgo application and test Array page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is able run code in tryEditor for Arrays in Python page&quot;, &quot;User launch dsalgo application ...)">
+                  </a> <!-- runScenario("The user is able run code in tryEditor for Arrays in Python page", "User launch dsalgo application ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is able run code in tryEditor for Arrays in Python page", "User launch dsalgo application and test Array page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verifying signout link&quot;, &quot;Validating Login page&quot;)">
+                  </a> <!-- runScenario("Verifying signout link", "Validating Login page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verifying signout link", "Validating Login page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click getstarted link &quot;Linkedlist&quot; on home page without sign in&quot;, &quot;User la...)">
+                  </a> <!-- runScenario("User is on Home page and click getstarted link "Linkedlist" on home page without sign in", "User la...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click getstarted link "Linkedlist" on home page without sign in", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User on login page and login with invalid and valid inputs from Excel &quot;Sheet1&quot; and 0&quot;, &quot;Validating ...)">
+                  </a> <!-- runScenario("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 0", "Validating ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 0", "Validating Login page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click getstarted link &quot;Tree&quot; on home page without sign in&quot;, &quot;User launch d...)">
+                  </a> <!-- runScenario("User is on Home page and click getstarted link "Tree" on home page without sign in", "User launch d...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click getstarted link "Tree" on home page without sign in", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click on sign in&quot;, &quot;User launch dsalgo application and test Home page&quot;)">
+                  </a> <!-- runScenario("User is on Home page and click on sign in", "User launch dsalgo application and test Home page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click on sign in", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click on dropdown &quot;Tree&quot; without sign in&quot;, &quot;User launch dsalgo application...)">
+                  </a> <!-- runScenario("User is on Home page and click on dropdown "Tree" without sign in", "User launch dsalgo application...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click on dropdown "Tree" without sign in", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click on dropdown &quot;Graph&quot; without sign in&quot;, &quot;User launch dsalgo applicatio...)">
+                  </a> <!-- runScenario("User is on Home page and click on dropdown "Graph" without sign in", "User launch dsalgo applicatio...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click on dropdown "Graph" without sign in", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click getstarted link &quot;Graph&quot; on home page without sign in&quot;, &quot;User launch ...)">
+                  </a> <!-- runScenario("User is on Home page and click getstarted link "Graph" on home page without sign in", "User launch ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click getstarted link "Graph" on home page without sign in", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is presented with error message for empty fields below Password textbox&quot;, &quot;Validating Regi...)">
+                  </a> <!-- runScenario("The user is presented with error message for empty fields below Password textbox", "Validating Regi...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is presented with error message for empty fields below Password textbox", "Validating Register page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User on login page and login with invalid inputs &quot;&quot; and &quot;&quot;&quot;, &quot;Validating Login page&quot;)">
+                  </a> <!-- runScenario("User on login page and login with invalid inputs "" and """, "Validating Login page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User on login page and login with invalid inputs "" and """, "Validating Login page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click getstarted link &quot;Datastructures&quot; on home page without sign in&quot;, &quot;Use...)">
+                  </a> <!-- runScenario("User is on Home page and click getstarted link "Datastructures" on home page without sign in", "Use...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click getstarted link "Datastructures" on home page without sign in", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is presented with error message for empty fields below confirm Password textbox&quot;, &quot;Validat...)">
+                  </a> <!-- runScenario("The user is presented with error message for empty fields below confirm Password textbox", "Validat...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is presented with error message for empty fields below confirm Password textbox", "Validating Register page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is presented with error message for code with invalid syntax in tryEditor for Arrays in Py...)">
+                  </a> <!-- runScenario("The user is presented with error message for code with invalid syntax in tryEditor for Arrays in Py...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is presented with error message for code with invalid syntax in tryEditor for Arrays in Python page", "User launch dsalgo application and test Array page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click on dropdown &quot;Arrays&quot; without sign in&quot;, &quot;User launch dsalgo applicati...)">
+                  </a> <!-- runScenario("User is on Home page and click on dropdown "Arrays" without sign in", "User launch dsalgo applicati...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click on dropdown "Arrays" without sign in", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click getstarted link &quot;Queue&quot; on home page without sign in&quot;, &quot;User launch ...)">
+                  </a> <!-- runScenario("User is on Home page and click getstarted link "Queue" on home page without sign in", "User launch ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click getstarted link "Queue" on home page without sign in", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User on login page and login with invalid inputs &quot;&quot; and &quot;passowrd&quot;&quot;, &quot;Validating Login page&quot;)">
+                  </a> <!-- runScenario("User on login page and login with invalid inputs "" and "passowrd"", "Validating Login page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User on login page and login with invalid inputs "" and "passowrd"", "Validating Login page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click getstarted link &quot;Stack&quot; on home page without sign in&quot;, &quot;User launch ...)">
+                  </a> <!-- runScenario("User is on Home page and click getstarted link "Stack" on home page without sign in", "User launch ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click getstarted link "Stack" on home page without sign in", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User on login page and login with invalid and valid inputs from Excel &quot;Sheet1&quot; and 3&quot;, &quot;Validating ...)">
+                  </a> <!-- runScenario("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 3", "Validating ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 3", "Validating Login page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User on login page and login with invalid and valid inputs from Excel &quot;Sheet1&quot; and 2&quot;, &quot;Validating ...)">
+                  </a> <!-- runScenario("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 2", "Validating ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 2", "Validating Login page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click on dropdown &quot;Stack&quot; without sign in&quot;, &quot;User launch dsalgo applicatio...)">
+                  </a> <!-- runScenario("User is on Home page and click on dropdown "Stack" without sign in", "User launch dsalgo applicatio...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click on dropdown "Stack" without sign in", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is able to navigate to Arrays in Python page&quot;, &quot;User launch dsalgo application and test Ar...)">
+                  </a> <!-- runScenario("The user is able to navigate to Arrays in Python page", "User launch dsalgo application and test Ar...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is able to navigate to Arrays in Python page", "User launch dsalgo application and test Array page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User launch home page of an dsalgo project&quot;, &quot;User launch dsalgo application and test Home page&quot;)">
+                  </a> <!-- runScenario("User launch home page of an dsalgo project", "User launch dsalgo application and test Home page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User launch home page of an dsalgo project", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User on login page and login with invalid and valid inputs from Excel &quot;Sheet1&quot; and 1&quot;, &quot;Validating ...)">
+                  </a> <!-- runScenario("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 1", "Validating ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 1", "Validating Login page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click on dropdown &quot;Linkedlist&quot; without sign in&quot;, &quot;User launch dsalgo appli...)">
+                  </a> <!-- runScenario("User is on Home page and click on dropdown "Linkedlist" without sign in", "User launch dsalgo appli...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click on dropdown "Linkedlist" without sign in", "User launch dsalgo application and test Home page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click getstarted link &quot;Arrays&quot; on home page without sign in&quot;, &quot;User launch...)">
+                  </a> <!-- runScenario("User is on Home page and click getstarted link "Arrays" on home page without sign in", "User launch...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click getstarted link "Arrays" on home page without sign in", "User launch dsalgo application and test Home page")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\shrav\AppData\Local\Temp\testng-eclipse--238329594\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\shrav\eclipse-workspace1\com.dsalgoCucumberFramework\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Cucumber extent reports&quot;&gt;
+  &lt;/test&gt; &lt;!-- Cucumber extent reports --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Runner.testRunner&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Cucumber extent reports (0 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
@@ -1351,162 +683,182 @@ public void click_login_button_to_verify() {
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(29);
+data.addRows(34);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'Runner.testRunner')
-data.setCell(0, 3, 2343);
+data.setCell(0, 3, 7618);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'Runner.testRunner')
-data.setCell(1, 3, 959);
+data.setCell(1, 3, 4006);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'Runner.testRunner')
-data.setCell(2, 3, 916);
+data.setCell(2, 3, 3258);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'Runner.testRunner')
-data.setCell(3, 3, 534);
+data.setCell(3, 3, 3100);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'Runner.testRunner')
-data.setCell(4, 3, 527);
+data.setCell(4, 3, 2721);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'runScenario')
 data.setCell(5, 2, 'Runner.testRunner')
-data.setCell(5, 3, 522);
+data.setCell(5, 3, 2721);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'runScenario')
 data.setCell(6, 2, 'Runner.testRunner')
-data.setCell(6, 3, 516);
+data.setCell(6, 3, 2279);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'runScenario')
 data.setCell(7, 2, 'Runner.testRunner')
-data.setCell(7, 3, 506);
+data.setCell(7, 3, 2052);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'runScenario')
 data.setCell(8, 2, 'Runner.testRunner')
-data.setCell(8, 3, 500);
+data.setCell(8, 3, 2030);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'runScenario')
 data.setCell(9, 2, 'Runner.testRunner')
-data.setCell(9, 3, 495);
+data.setCell(9, 3, 1730);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'runScenario')
 data.setCell(10, 2, 'Runner.testRunner')
-data.setCell(10, 3, 492);
+data.setCell(10, 3, 1308);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'runScenario')
 data.setCell(11, 2, 'Runner.testRunner')
-data.setCell(11, 3, 487);
+data.setCell(11, 3, 1194);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'runScenario')
 data.setCell(12, 2, 'Runner.testRunner')
-data.setCell(12, 3, 486);
+data.setCell(12, 3, 1114);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'runScenario')
 data.setCell(13, 2, 'Runner.testRunner')
-data.setCell(13, 3, 485);
+data.setCell(13, 3, 1070);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'runScenario')
 data.setCell(14, 2, 'Runner.testRunner')
-data.setCell(14, 3, 458);
+data.setCell(14, 3, 1011);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'runScenario')
 data.setCell(15, 2, 'Runner.testRunner')
-data.setCell(15, 3, 425);
+data.setCell(15, 3, 938);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'runScenario')
 data.setCell(16, 2, 'Runner.testRunner')
-data.setCell(16, 3, 364);
+data.setCell(16, 3, 755);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'runScenario')
 data.setCell(17, 2, 'Runner.testRunner')
-data.setCell(17, 3, 82);
+data.setCell(17, 3, 670);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'runScenario')
 data.setCell(18, 2, 'Runner.testRunner')
-data.setCell(18, 3, 29);
+data.setCell(18, 3, 625);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'runScenario')
 data.setCell(19, 2, 'Runner.testRunner')
-data.setCell(19, 3, 26);
+data.setCell(19, 3, 527);
 data.setCell(20, 0, 20)
 data.setCell(20, 1, 'runScenario')
 data.setCell(20, 2, 'Runner.testRunner')
-data.setCell(20, 3, 23);
+data.setCell(20, 3, 526);
 data.setCell(21, 0, 21)
 data.setCell(21, 1, 'runScenario')
 data.setCell(21, 2, 'Runner.testRunner')
-data.setCell(21, 3, 21);
+data.setCell(21, 3, 524);
 data.setCell(22, 0, 22)
 data.setCell(22, 1, 'runScenario')
 data.setCell(22, 2, 'Runner.testRunner')
-data.setCell(22, 3, 21);
+data.setCell(22, 3, 521);
 data.setCell(23, 0, 23)
 data.setCell(23, 1, 'runScenario')
 data.setCell(23, 2, 'Runner.testRunner')
-data.setCell(23, 3, 19);
+data.setCell(23, 3, 478);
 data.setCell(24, 0, 24)
 data.setCell(24, 1, 'runScenario')
 data.setCell(24, 2, 'Runner.testRunner')
-data.setCell(24, 3, 18);
+data.setCell(24, 3, 475);
 data.setCell(25, 0, 25)
 data.setCell(25, 1, 'runScenario')
 data.setCell(25, 2, 'Runner.testRunner')
-data.setCell(25, 3, 18);
+data.setCell(25, 3, 469);
 data.setCell(26, 0, 26)
 data.setCell(26, 1, 'runScenario')
 data.setCell(26, 2, 'Runner.testRunner')
-data.setCell(26, 3, 16);
+data.setCell(26, 3, 465);
 data.setCell(27, 0, 27)
 data.setCell(27, 1, 'runScenario')
 data.setCell(27, 2, 'Runner.testRunner')
-data.setCell(27, 3, 16);
+data.setCell(27, 3, 462);
 data.setCell(28, 0, 28)
 data.setCell(28, 1, 'runScenario')
 data.setCell(28, 2, 'Runner.testRunner')
-data.setCell(28, 3, 10);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(28, 3, 437);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'runScenario')
+data.setCell(29, 2, 'Runner.testRunner')
+data.setCell(29, 3, 437);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'runScenario')
+data.setCell(30, 2, 'Runner.testRunner')
+data.setCell(30, 3, 431);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'runScenario')
+data.setCell(31, 2, 'Runner.testRunner')
+data.setCell(31, 3, 408);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'runScenario')
+data.setCell(32, 2, 'Runner.testRunner')
+data.setCell(32, 3, 374);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'runScenario')
+data.setCell(33, 2, 'Runner.testRunner')
+data.setCell(33, 3, 327);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -1514,152 +866,148 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Runner.testRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@149d7cc6)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@2fc7c36a)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("User launch home page of an dsalgo project", "User launch dsalgo application and test Home page")</span>
-                <span class="method-start">3863 ms</span>
+                <span class="method-start">3874 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click getstarted link "Datastructures" on home page without sign in", "Use...)</span>
-                <span class="method-start">6291 ms</span>
+                <span class="method-start">5948 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click getstarted link "Arrays" on home page without sign in", "User launch...)</span>
-                <span class="method-start">6790 ms</span>
+                <span class="method-start">6477 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click getstarted link "Linkedlist" on home page without sign in", "User la...)</span>
-                <span class="method-start">7299 ms</span>
+                <span class="method-start">6955 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click getstarted link "Stack" on home page without sign in", "User launch ...)</span>
-                <span class="method-start">7759 ms</span>
+                <span class="method-start">7396 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click getstarted link "Queue" on home page without sign in", "User launch ...)</span>
-                <span class="method-start">8250 ms</span>
+                <span class="method-start">7837 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click getstarted link "Tree" on home page without sign in", "User launch d...)</span>
-                <span class="method-start">8792 ms</span>
+                <span class="method-start">8511 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click getstarted link "Graph" on home page without sign in", "User launch ...)</span>
-                <span class="method-start">9299 ms</span>
+                <span class="method-start">8986 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on dropdown "Arrays" without sign in", "User launch dsalgo applicati...)</span>
-                <span class="method-start">9793 ms</span>
+                <span class="method-start">9457 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on dropdown "Linkedlist" without sign in", "User launch dsalgo appli...)</span>
-                <span class="method-start">10285 ms</span>
+                <span class="method-start">9985 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on dropdown "Stack" without sign in", "User launch dsalgo applicatio...)</span>
-                <span class="method-start">10807 ms</span>
+                <span class="method-start">10516 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on dropdown "Queue" without sign in", "User launch dsalgo applicatio...)</span>
-                <span class="method-start">11310 ms</span>
+                <span class="method-start">11048 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on dropdown "Tree" without sign in", "User launch dsalgo application...)</span>
-                <span class="method-start">11839 ms</span>
+                <span class="method-start">12123 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on dropdown "Graph" without sign in", "User launch dsalgo applicatio...)</span>
-                <span class="method-start">12373 ms</span>
+                <span class="method-start">13242 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on sign in", "User launch dsalgo application and test Home page")</span>
-                <span class="method-start">13339 ms</span>
+                <span class="method-start">14003 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on Register", "User launch dsalgo application and test Home page")</span>
-                <span class="method-start">14261 ms</span>
+                <span class="method-start">14382 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User launch home page of an dsalgo project", "Validating Register page")</span>
-                <span class="method-start">14699 ms</span>
+                <span class="method-start">14877 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("The user is presented with error message for empty fields below Username textbox", "Validating Regi...)</span>
-                <span class="method-start">15068 ms</span>
+                <span class="method-start">15314 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("The user is presented with error message for empty fields below Password textbox", "Validating Regi...)</span>
-                <span class="method-start">15162 ms</span>
+                <span class="method-start">15783 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("The user is presented with error message for empty fields below confirm Password textbox", "Validat...)</span>
-                <span class="method-start">15198 ms</span>
+                <span class="method-start">16115 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("The user is presented with error message for invalid username", "Validating Register page")</span>
-                <span class="method-start">15232 ms</span>
+                <span class="method-name">runScenario("Verifying Register link", "Validating Login page")</span>
+                <span class="method-start">16751 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("The user is presented with error message for password mismatch", "Validating Register page")</span>
-                <span class="method-start">15267 ms</span>
+                <span class="method-name">runScenario("User on login page and login with invalid inputs "user" and """, "Validating Login page")</span>
+                <span class="method-start">17165 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("The user is presented with error message for password with characters less than 8", "Validating Reg...)</span>
-                <span class="method-start">15303 ms</span>
+                <span class="method-name">runScenario("User on login page and login with invalid inputs "" and "passowrd"", "Validating Login page")</span>
+                <span class="method-start">18108 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("The user is presented with error message for password with only numbers", "Validating Register page...)</span>
-                <span class="method-start">15330 ms</span>
+                <span class="method-name">runScenario("User on login page and login with invalid inputs "" and """, "Validating Login page")</span>
+                <span class="method-start">19420 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("The user is presented with error message for password too similar to your other personal informatio...)</span>
-                <span class="method-start">15357 ms</span>
+                <span class="method-name">runScenario("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 0", "Validating ...)</span>
+                <span class="method-start">20619 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("The user is presented with error message for commonly used password", "Validating Register page")</span>
-                <span class="method-start">15386 ms</span>
+                <span class="method-name">runScenario("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 1", "Validating ...)</span>
+                <span class="method-start">23723 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("The user redirected to Homepage with valid details", "Validating Register page")</span>
-                <span class="method-start">15411 ms</span>
+                <span class="method-name">runScenario("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 2", "Validating ...)</span>
+                <span class="method-start">24738 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("The user is presented with error message for existing username", "Validating Register page")</span>
-                <span class="method-start">15434 ms</span>
+                <span class="method-name">runScenario("User on login page and login with invalid and valid inputs from Excel "Sheet1" and 3", "Validating ...)</span>
+                <span class="method-start">28002 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("User on signin page and login with valid credentials", "Validating Register page")</span>
-                <span class="method-start">15450 ms</span>
+                <span class="method-name">runScenario("Verifying signout link", "Validating Login page")</span>
+                <span class="method-start">30285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("The user is able to navigate to "ARRAY" Data Structure Page", "User launch dsalgo application and t...)</span>
+                <span class="method-start">33010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("The user is able to navigate to Arrays in Python page", "User launch dsalgo application and test Ar...)</span>
+                <span class="method-start">37024 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("The user is able to navigate to a page having an tryEditor from Arrays in Python page", "User launc...)</span>
+                <span class="method-start">39749 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("The user is able run code in tryEditor for Arrays in Python page", "User launch dsalgo application ...)</span>
+                <span class="method-start">47370 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("The user is presented with error message for code with invalid syntax in tryEditor for Arrays in Py...)</span>
+                <span class="method-start">49406 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">15478 ms</span>
+                <span class="method-start">51141 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
