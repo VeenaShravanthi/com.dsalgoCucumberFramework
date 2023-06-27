@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>34/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 27 11:57:03 CDT 2023</td>
+<td>Started on:</td><td>Tue Jun 20 22:27:24 CDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>10 seconds (10833 ms)</td>
+<tr><td>Total time:</td><td>49 seconds (49644 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,53 +76,175 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Runner.testRunner.setUpClass()'><b>setUpClass</b><br>Test class: Runner.testRunner<br>Parameters: org.testng.TestRunner@7be62956</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
-Host info: host: &apos;DESKTOP-GPKURBV&apos;, ip: &apos;192.168.1.94&apos;
-Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --no-sandbox], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --no-sandbox], extensions: []}}}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:101)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:84)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:73)
-	at DriverFactory.BaseClass.init_driver(BaseClass.java:48)
-	at ApplicationHooks.AppHooks.before(AppHooks.java:37)
-</pre></div><a href='#' onClick='toggleBox("stack-trace193178046", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace193178046'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
-Host info: host: &apos;DESKTOP-GPKURBV&apos;, ip: &apos;192.168.1.94&apos;
-Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --no-sandbox], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --no-sandbox], extensions: []}}}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:101)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:84)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:73)
-	at DriverFactory.BaseClass.init_driver(BaseClass.java:48)
-	at ApplicationHooks.AppHooks.before(AppHooks.java:37)
-</pre></div></td>
-<td>10</td>
-<td>Runner.testRunner@6be968ce</td></tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid and valid inputs from Excel "Sheet1" and 3", "Validating Login page"</td>
+<td></td>
+<td>1</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Tree" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User launch home page of an dsalgo project", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>1</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs "" and """, "Validating Login page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Arrays in Python page", "User launch dsalgo application and test Array page"</td>
+<td></td>
+<td>3</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid and valid inputs from Excel "Sheet1" and 1", "Validating Login page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Arrays" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able run code in tryEditor for Arrays in Python page", "User launch dsalgo application and test Array page"</td>
+<td></td>
+<td>2</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields below Password textbox", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Queue" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid and valid inputs from Excel "Sheet1" and 0", "Validating Login page"</td>
+<td></td>
+<td>2</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Stack" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on Register", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid and valid inputs from Excel "Sheet1" and 2", "Validating Login page"</td>
+<td></td>
+<td>1</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Arrays" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User launch home page of an dsalgo project", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Linkedlist" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Datastructures" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Tree" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to a page having an tryEditor from Arrays in Python page", "User launch dsalgo application and test Array page"</td>
+<td></td>
+<td>2</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields below confirm Password textbox", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Queue" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "ARRAY" Data Structure Page", "User launch dsalgo application and test Array page"</td>
+<td></td>
+<td>2</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields below Username textbox", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Graph" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Stack" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs "user" and """, "Validating Login page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs "" and "passowrd"", "Validating Login page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Graph" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for code with invalid syntax in tryEditor for Arrays in Python page", "User launch dsalgo application and test Array page"</td>
+<td></td>
+<td>1</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying Register link", "Validating Login page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Linkedlist" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>Runner.testRunner@d554c5f</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying signout link", "Validating Login page"</td>
+<td></td>
+<td>1</td>
+<td>Runner.testRunner@d554c5f</td></tr>
 </table><p>
 </body>
 </html>
